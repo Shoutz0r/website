@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Free mobile app HTML landing page template to help you build a great online presence for your app which will convert visitors into users">
-    <meta name="author" content="Inovatik">
+    <meta name="description" content="With Shoutz0r anyone can vote for, or queue, their favourite music. No more hassle about who controls the music! Best of all? It's free & open-source!">
+    <meta name="author" content="xorinzor">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:site_name" content="Shoutz0r" /> <!-- website name -->
+	<meta property="og:site" content="https://www.shoutzor.com" /> <!-- website link -->
+	<meta property="og:title" content="Shoutz0r"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="With Shoutz0r anyone can vote for, or queue, their favourite music. No more hassle about who controls the music! Best of all? It's free & open-source!" />
 	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
 	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
 	<meta property="og:type" content="article" />
@@ -122,15 +122,15 @@
                     <!-- Counter -->
                     <div id="counter">
                         <div class="cell">
-                            <div class="counter-value number-count" data-count="315">0</div>
+                            <div id="repoCommitCount" class="counter-value number-count">0</div>
                             <p class="counter-info">Commits</p>
                         </div>
                         <div class="cell">
-                            <div class="counter-value number-count" data-count="0">0</div>
+                            <div id="repoStarCount" class="counter-value number-count">0</div>
                             <p class="counter-info">Stars</p>
                         </div>
                         <div class="cell">
-                            <div class="counter-value number-count" data-count="5">0</div>
+                            <div id="repoIssueCount" class="counter-value number-count">0</div>
                             <p class="counter-info">Issues</p>
                         </div>
                     </div>
@@ -141,6 +141,27 @@
         </div> <!-- end of container -->
     </div> <!-- end of counter -->
     <!-- end of statistics -->
+
+    <script type="text/javascript">
+    	$(function() {
+    		// Set Commit count
+    		$.getJSON("https://api.github.com/repos/xorinzor/Shoutz0r-app/stats/contributors", function(data) {
+    			var commitCount = 0;
+
+    			$.each(data, function(k,v) {
+    				commitCount += v.total;
+    			});
+
+    			$("#repoCommitCount").html(commitCount);
+    		});
+
+    		// Set Star and Issue count
+    		$.getJSON("https://api.github.com/repos/xorinzor/Shoutz0r-app", function(data) {
+    			$("#repoStarCount").html(data.stargazers_count);
+				$("#repoIssueCount").html(data.open_issues_count);
+			});
+    	});
+    </script>
 
     <!-- Features -->
     <div id="features" class="tabs">
