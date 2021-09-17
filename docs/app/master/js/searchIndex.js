@@ -61,36 +61,6 @@ Search.appendIndex(
             "summary": "The\u0020Artisan\u0020commands\u0020provided\u0020by\u0020your\u0020application.",
             "url": "classes/App-Console-Kernel.html#property_commands"
         },                {
-            "fqsen": "\\App\\Events\\BaseEvent",
-            "name": "BaseEvent",
-            "summary": "Class\u0020BaseEvent\nBase\u0020Event\u0020class\u0020to\u0020be\u0020used\u0020by\u0020other\u0020Events\u0020of\u0020Shoutz0r",
-            "url": "classes/App-Events-BaseEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\BaseEvent\u003A\u003AgetReason\u0028\u0029",
-            "name": "getReason",
-            "summary": "",
-            "url": "classes/App-Events-BaseEvent.html#method_getReason"
-        },                {
-            "fqsen": "\\App\\Events\\BaseEvent\u003A\u003AsetInvalid\u0028\u0029",
-            "name": "setInvalid",
-            "summary": "Marks\u0020the\u0020upload\u0020as\u0020invalid",
-            "url": "classes/App-Events-BaseEvent.html#method_setInvalid"
-        },                {
-            "fqsen": "\\App\\Events\\BaseEvent\u003A\u003AisValid\u0028\u0029",
-            "name": "isValid",
-            "summary": "Returns\u0020whether\u0020the\u0020upload\u0020is\u0020valid\u0020or\u0020not",
-            "url": "classes/App-Events-BaseEvent.html#method_isValid"
-        },                {
-            "fqsen": "\\App\\Events\\BaseEvent\u003A\u003A\u0024valid",
-            "name": "valid",
-            "summary": "",
-            "url": "classes/App-Events-BaseEvent.html#property_valid"
-        },                {
-            "fqsen": "\\App\\Events\\BaseEvent\u003A\u003A\u0024reason",
-            "name": "reason",
-            "summary": "",
-            "url": "classes/App-Events-BaseEvent.html#property_reason"
-        },                {
             "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent",
             "name": "AlbumCreateEvent",
             "summary": "Class\u0020AlbumCreateEvent\nGets\u0020called\u0020when\u0020an\u0020album\u0020gets\u0020added\u0020to\u0020Shoutz0r",
@@ -353,27 +323,27 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Events\\ReadOnlyEvent",
             "name": "ReadOnlyEvent",
-            "summary": "Class\u0020ReadOnlyEvent\nCreates\u0020a\u0020read\u002Donly\u0020event,\u0020this\u0020cannot\u0020be\u0020marked\u0020invalid\u0020or\u0020stopped\u0020from\u0020propagating.",
+            "summary": "Creates\u0020a\u0020read\u002Donly\u0020event,\u0020this\u0020event\u0020cannot\u0020be\u0020marked\u0020as\u0020invalid\u0020or\u0020stopped\u0020from\u0020propagating.",
             "url": "classes/App-Events-ReadOnlyEvent.html"
         },                {
             "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AstopPropagation\u0028\u0029",
             "name": "stopPropagation",
-            "summary": "",
+            "summary": "Will\u0020throw\u0020an\u0020exception\u0020when\u0020called,\u0020since\u0020you\u0020cannot\u0020stop\u0020propagation\u0020of\u0020a\u0020ReadOnlyEvent",
             "url": "classes/App-Events-ReadOnlyEvent.html#method_stopPropagation"
         },                {
             "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AsetInvalid\u0028\u0029",
             "name": "setInvalid",
-            "summary": "Marks\u0020the\u0020upload\u0020as\u0020invalid",
+            "summary": "Will\u0020throw\u0020an\u0020exception\u0020when\u0020called,\u0020since\u0020you\u0020cannot\u0020mark\u0020a\u0020ReadOnlyEvent\u0020as\u0020invalid",
             "url": "classes/App-Events-ReadOnlyEvent.html#method_setInvalid"
         },                {
             "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AisValid\u0028\u0029",
             "name": "isValid",
-            "summary": "Returns\u0020whether\u0020the\u0020upload\u0020is\u0020valid\u0020or\u0020not",
+            "summary": "Returns\u0020if\u0020the\u0020event\u0020is\u0020valid.\u0020This\u0020will\u0020always\u0020be\u0020true\u0020for\u0020a\u0020ReadOnlyEvent.",
             "url": "classes/App-Events-ReadOnlyEvent.html#method_isValid"
         },                {
             "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AisPropagationStopped\u0028\u0029",
             "name": "isPropagationStopped",
-            "summary": "",
+            "summary": "Returns\u0020if\u0020the\u0020propagation\u0020of\u0020this\u0020event\u0020should\u0020be\u0020stopped.\u0020This\u0020will\u0020always\u0020be\u0020false\u0020for\u0020a\u0020ReadOnlyEvent.",
             "url": "classes/App-Events-ReadOnlyEvent.html#method_isPropagationStopped"
         },                {
             "fqsen": "\\App\\Events\\ShoutzorDispatcher",
@@ -385,6 +355,36 @@ Search.appendIndex(
             "name": "getListeners",
             "summary": "Get\u0020all\u0020of\u0020the\u0020listeners\u0020for\u0020a\u0020given\u0020event\u0020name.",
             "url": "classes/App-Events-ShoutzorDispatcher.html#method_getListeners"
+        },                {
+            "fqsen": "\\App\\Events\\ShoutzorEvent",
+            "name": "ShoutzorEvent",
+            "summary": "Base\u0020Event\u0020class\u0020to\u0020be\u0020used\u0020by\u0020internal\u0020Events\u0020from\u0020Shoutz0r\u0020\u0028ie\u003A\u0020non\u002Dfrontend\u0029",
+            "url": "classes/App-Events-ShoutzorEvent.html"
+        },                {
+            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003AgetReason\u0028\u0029",
+            "name": "getReason",
+            "summary": "Returns\u0020the\u0020reason\u0020why\u0020the\u0020event\u0020is\u0020marked\u0020as\u0020invalid",
+            "url": "classes/App-Events-ShoutzorEvent.html#method_getReason"
+        },                {
+            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003AsetInvalid\u0028\u0029",
+            "name": "setInvalid",
+            "summary": "Marks\u0020the\u0020upload\u0020as\u0020invalid",
+            "url": "classes/App-Events-ShoutzorEvent.html#method_setInvalid"
+        },                {
+            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003AisValid\u0028\u0029",
+            "name": "isValid",
+            "summary": "Returns\u0020whether\u0020the\u0020event\u0020is\u0020valid\u0020or\u0020not",
+            "url": "classes/App-Events-ShoutzorEvent.html#method_isValid"
+        },                {
+            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003A\u0024valid",
+            "name": "valid",
+            "summary": "",
+            "url": "classes/App-Events-ShoutzorEvent.html#property_valid"
+        },                {
+            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003A\u0024reason",
+            "name": "reason",
+            "summary": "",
+            "url": "classes/App-Events-ShoutzorEvent.html#property_reason"
         },                {
             "fqsen": "\\App\\Exceptions\\Handler",
             "name": "Handler",
@@ -1701,15 +1701,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/app-console.html"
         },                {
-            "fqsen": "\\App\\Events",
-            "name": "Events",
-            "summary": "",
-            "url": "namespaces/app-events.html"
-        },                {
             "fqsen": "\\App\\Events\\Internal",
             "name": "Internal",
             "summary": "",
             "url": "namespaces/app-events-internal.html"
+        },                {
+            "fqsen": "\\App\\Events",
+            "name": "Events",
+            "summary": "",
+            "url": "namespaces/app-events.html"
         },                {
             "fqsen": "\\App\\Exceptions",
             "name": "Exceptions",

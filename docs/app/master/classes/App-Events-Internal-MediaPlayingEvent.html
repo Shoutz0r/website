@@ -195,14 +195,14 @@ Gets called when a media object started playing on Shoutz0r</p>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/App-Events-BaseEvent.html#property_reason">$reason</a>
+    <a href="classes/App-Events-ShoutzorEvent.html#property_reason">$reason</a>
     <span>
                 &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/App-Events-BaseEvent.html#property_valid">$valid</a>
+    <a href="classes/App-Events-ShoutzorEvent.html#property_valid">$valid</a>
     <span>
                 &nbsp;: bool            </span>
 </dt>
@@ -223,30 +223,30 @@ Gets called when a media object started playing on Shoutz0r</p>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Events-BaseEvent.html#method_getReason">getReason()</a>
+    <a href="classes/App-Events-ShoutzorEvent.html#method_getReason">getReason()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
-<dd></dd>
+<dd>Returns the reason why the event is marked as invalid</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Events-ReadOnlyEvent.html#method_isPropagationStopped">isPropagationStopped()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
-<dd></dd>
+<dd>Returns if the propagation of this event should be stopped. This will always be false for a ReadOnlyEvent.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Events-BaseEvent.html#method_isValid">isValid()</a>
+    <a href="classes/App-Events-ShoutzorEvent.html#method_isValid">isValid()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
-<dd>Returns whether the upload is valid or not</dd>
+<dd>Returns whether the event is valid or not</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Events-BaseEvent.html#method_setInvalid">setInvalid()</a>
+    <a href="classes/App-Events-ShoutzorEvent.html#method_setInvalid">setInvalid()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd>Marks the upload as invalid</dd>
 
@@ -255,7 +255,7 @@ Gets called when a media object started playing on Shoutz0r</p>
     <span>
                         &nbsp;: void    </span>
 </dt>
-<dd></dd>
+<dd>Will throw an exception when called, since you cannot stop propagation of a ReadOnlyEvent</dd>
 
         </dl>
 
@@ -347,14 +347,14 @@ Gets called when a media object started playing on Shoutz0r</p>
 >
     <h4 class="phpdocumentor-element__name" id="property_reason">
         $reason
-        <a href="classes/App-Events-BaseEvent.html#property_reason" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-Events-ShoutzorEvent.html#property_reason" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/BaseEvent.php"><a href="files/shoutz0r-app-app-events-baseevent.html"><abbr title="Shoutz0r-app/app/Events/BaseEvent.php">BaseEvent.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ShoutzorEvent.php"><a href="files/shoutz0r-app-app-events-shoutzorevent.html"><abbr title="Shoutz0r-app/app/Events/ShoutzorEvent.php">ShoutzorEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -381,14 +381,14 @@ Gets called when a media object started playing on Shoutz0r</p>
 >
     <h4 class="phpdocumentor-element__name" id="property_valid">
         $valid
-        <a href="classes/App-Events-BaseEvent.html#property_valid" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-Events-ShoutzorEvent.html#property_valid" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/BaseEvent.php"><a href="files/shoutz0r-app-app-events-baseevent.html"><abbr title="Shoutz0r-app/app/Events/BaseEvent.php">BaseEvent.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ShoutzorEvent.php"><a href="files/shoutz0r-app-app-events-shoutzorevent.html"><abbr title="Shoutz0r-app/app/Events/ShoutzorEvent.php">ShoutzorEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -498,22 +498,22 @@ Gets called when a media object started playing on Shoutz0r</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getReason">
         getReason()
-        <a href="classes/App-Events-BaseEvent.html#method_getReason" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-Events-ShoutzorEvent.html#method_getReason" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/BaseEvent.php"><a href="files/shoutz0r-app-app-events-baseevent.html"><abbr title="Shoutz0r-app/app/Events/BaseEvent.php">BaseEvent.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ShoutzorEvent.php"><a href="files/shoutz0r-app-app-events-shoutzorevent.html"><abbr title="Shoutz0r-app/app/Events/ShoutzorEvent.php">ShoutzorEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Returns the reason why the event is marked as invalid</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getReason</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
@@ -536,24 +536,26 @@ Gets called when a media object started playing on Shoutz0r</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ReadOnlyEvent.php"><a href="files/shoutz0r-app-app-events-readonlyevent.html"><abbr title="Shoutz0r-app/app/Events/ReadOnlyEvent.php">ReadOnlyEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Returns if the propagation of this event should be stopped. This will always be false for a ReadOnlyEvent.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isPropagationStopped</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-        
+            <section class="phpdocumentor-description"><p>will always be false</p>
+</section>
+
     
 </article>
                     <article
@@ -564,16 +566,16 @@ Gets called when a media object started playing on Shoutz0r</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_isValid">
         isValid()
-        <a href="classes/App-Events-BaseEvent.html#method_isValid" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-Events-ShoutzorEvent.html#method_isValid" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/BaseEvent.php"><a href="files/shoutz0r-app-app-events-baseevent.html"><abbr title="Shoutz0r-app/app/Events/BaseEvent.php">BaseEvent.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ShoutzorEvent.php"><a href="files/shoutz0r-app-app-events-shoutzorevent.html"><abbr title="Shoutz0r-app/app/Events/ShoutzorEvent.php">ShoutzorEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Returns whether the upload is valid or not</p>
+        <p class="phpdocumentor-summary">Returns whether the event is valid or not</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -597,12 +599,12 @@ Gets called when a media object started playing on Shoutz0r</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_setInvalid">
         setInvalid()
-        <a href="classes/App-Events-BaseEvent.html#method_setInvalid" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-Events-ShoutzorEvent.html#method_setInvalid" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/BaseEvent.php"><a href="files/shoutz0r-app-app-events-baseevent.html"><abbr title="Shoutz0r-app/app/Events/BaseEvent.php">BaseEvent.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ShoutzorEvent.php"><a href="files/shoutz0r-app-app-events-shoutzorevent.html"><abbr title="Shoutz0r-app/app/Events/ShoutzorEvent.php">ShoutzorEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -610,17 +612,18 @@ Gets called when a media object started playing on Shoutz0r</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setInvalid</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$reason</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">setInvalid</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$reason</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$reason</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
+                    <section class="phpdocumentor-description"><p>if set, defines the reason why the event is invalid</p>
+</section>
 
             </dd>
             </dl>
@@ -628,7 +631,7 @@ Gets called when a media object started playing on Shoutz0r</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
         
     
@@ -646,19 +649,33 @@ Gets called when a media object started playing on Shoutz0r</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Events/ReadOnlyEvent.php"><a href="files/shoutz0r-app-app-events-readonlyevent.html"><abbr title="Shoutz0r-app/app/Events/ReadOnlyEvent.php">ReadOnlyEvent.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Will throw an exception when called, since you cannot stop propagation of a ReadOnlyEvent</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">stopPropagation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
     
     
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
