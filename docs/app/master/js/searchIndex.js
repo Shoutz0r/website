@@ -46,6 +46,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Artist.html#method_media"
         },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor",
+            "name": "InstallShoutzor",
+            "summary": "An\u0020Artisan\u0020command\u0020allowing\u0020for\u0020command\u002Dline\u0020installation\u0020of\u0020Shoutzor.",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Create\u0020a\u0020new\u0020command\u0020instance.",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "Runs\u0020the\u0020shoutzor\u0020install\u0020command.",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_handle"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003AcheckHealth\u0028\u0029",
+            "name": "checkHealth",
+            "summary": "Runs\u0020the\u0020healthchecks\u0020and\u0020will\u0020perform\u0020an\u0020auto\u002Dfix\u0020if\u0020any\u0020issues\u0020are\u0020detected",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_checkHealth"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003AperformInstall\u0028\u0029",
+            "name": "performInstall",
+            "summary": "Performs\u0020the\u0020actual\u0020installation\u0020of\u0020Shoutzor",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_performInstall"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "The\u0020name\u0020and\u0020signature\u0020of\u0020the\u0020console\u0020command.",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#property_signature"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "The\u0020console\u0020command\u0020description.",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#property_description"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003A\u0024installer",
+            "name": "installer",
+            "summary": "Instance\u0020of\u0020the\u0020Installer\u0020class",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#property_installer"
+        },                {
             "fqsen": "\\App\\Console\\Kernel",
             "name": "Kernel",
             "summary": "",
@@ -385,6 +425,56 @@ Search.appendIndex(
             "name": "reason",
             "summary": "",
             "url": "classes/App-Events-ShoutzorEvent.html#property_reason"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationException",
+            "name": "formValidationException",
+            "summary": "This\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020form\u0020has\u0020failed\u0020validation.",
+            "url": "classes/App-Exceptions-formValidationException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Exceptions-formValidationException.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationException\u003A\u003AgetErrors\u0028\u0029",
+            "name": "getErrors",
+            "summary": "Returns\u0020the\u0020fields\u0020that\u0020have\u0020failed\u0020validation",
+            "url": "classes/App-Exceptions-formValidationException.html#method_getErrors"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationException\u003A\u003A\u0024errors",
+            "name": "errors",
+            "summary": "Contains\u0020the\u0020fields\u0020that\u0020have\u0020failed\u0020validation",
+            "url": "classes/App-Exceptions-formValidationException.html#property_errors"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationFieldError",
+            "name": "formValidationFieldError",
+            "summary": "Used\u0020in\u0020App\\Exception\\formValidationException\u0020to\u0020indicate\u0020which\u0020fields\u0020have\u0020failed\u0020validation",
+            "url": "classes/App-Exceptions-formValidationFieldError.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Exceptions-formValidationFieldError.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003AgetField\u0028\u0029",
+            "name": "getField",
+            "summary": "Returns\u0020the\u0020field\u0020name",
+            "url": "classes/App-Exceptions-formValidationFieldError.html#method_getField"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003AgetMessage\u0028\u0029",
+            "name": "getMessage",
+            "summary": "Returns\u0020the\u0020reason",
+            "url": "classes/App-Exceptions-formValidationFieldError.html#method_getMessage"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "The\u0020field\u0020name\u0020which\u0020has\u0020failed\u0020validation",
+            "url": "classes/App-Exceptions-formValidationFieldError.html#property_name"
+        },                {
+            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "The\u0020reason\u0020for\u0020the\u0020failed\u0020validation",
+            "url": "classes/App-Exceptions-formValidationFieldError.html#property_message"
         },                {
             "fqsen": "\\App\\Exceptions\\Handler",
             "name": "Handler",
@@ -1011,34 +1101,9 @@ Search.appendIndex(
             "summary": "Show\u0020the\u0020application\u0020dashboard.",
             "url": "classes/App-Http-Controllers-HomeController.html#method_index"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerDatabaseController",
-            "name": "InstallerDatabaseController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerDatabaseController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerDatabaseController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerDatabaseController\u003A\u003AgetDatabaseFields\u0028\u0029",
-            "name": "getDatabaseFields",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method_getDatabaseFields"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerDatabaseController\u003A\u003AconfigureDatabaseSettings\u0028\u0029",
-            "name": "configureDatabaseSettings",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method_configureDatabaseSettings"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerDatabaseController\u003A\u003A\u0024dbValues",
-            "name": "dbValues",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#property_dbValues"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController",
             "name": "InstallerSetupController",
-            "summary": "",
+            "summary": "Handles\u0020the\u0020API\u002Dcalls\u0020from\u0020the\u0020Graphical\u0020Installer",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003A__construct\u0028\u0029",
@@ -1048,33 +1113,43 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AgetSetupSteps\u0028\u0029",
             "name": "getSetupSteps",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020steps\u0020for\u0020the\u0020installation",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getSetupSteps"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AgetDatabaseFields\u0028\u0029",
+            "name": "getDatabaseFields",
+            "summary": "Returns\u0020the\u0020valid\u0020Database\u0020fields",
+            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getDatabaseFields"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AconfigureDatabaseSettings\u0028\u0029",
+            "name": "configureDatabaseSettings",
+            "summary": "Configures\u0020the\u0020database",
+            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_configureDatabaseSettings"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoMigrateDatabase\u0028\u0029",
             "name": "doMigrateDatabase",
-            "summary": "",
+            "summary": "Performs\u0020the\u0020migrate\u0020database\u0020step",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doMigrateDatabase"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoPassportInstall\u0028\u0029",
             "name": "doPassportInstall",
-            "summary": "",
+            "summary": "Performs\u0020the\u0020passport\u0020install\u0020step",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doPassportInstall"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoDatabaseSeeding\u0028\u0029",
             "name": "doDatabaseSeeding",
-            "summary": "",
+            "summary": "Performs\u0020the\u0020database\u0020seeding\u0020step",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doDatabaseSeeding"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoFinishInstall\u0028\u0029",
             "name": "doFinishInstall",
-            "summary": "",
+            "summary": "Performs\u0020the\u0020finish\u0020Install\u0020step",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doFinishInstall"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003A\u0024installSteps",
-            "name": "installSteps",
+            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003A\u0024installer",
+            "name": "installer",
             "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installSteps"
+            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installer"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\UpdateController",
             "name": "UpdateController",
@@ -1220,6 +1295,106 @@ Search.appendIndex(
             "name": "except",
             "summary": "The\u0020URIs\u0020that\u0020should\u0020be\u0020excluded\u0020from\u0020CSRF\u0020verification.",
             "url": "classes/App-Http-Middleware-VerifyCsrfToken.html#property_except"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer",
+            "name": "Installer",
+            "summary": "",
+            "url": "classes/App-Installer-Installer.html"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Installer-Installer.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AgetSteps\u0028\u0029",
+            "name": "getSteps",
+            "summary": "Returns\u0020the\u0020installation\u0020steps",
+            "url": "classes/App-Installer-Installer.html#method_getSteps"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AgetDbFields\u0028\u0029",
+            "name": "getDbFields",
+            "summary": "Returns\u0020the\u0020valid\u0020database\u0020fields\u0020that\u0020can\u0020be\u0020used\u0020for\u0020configuring\u0020the\u0020database.",
+            "url": "classes/App-Installer-Installer.html#method_getDbFields"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AconfigureSql\u0028\u0029",
+            "name": "configureSql",
+            "summary": "Tests\u0020\u0026\u0020Configures\u0020the\u0020SQL\u0020settings\u0020to\u0020use",
+            "url": "classes/App-Installer-Installer.html#method_configureSql"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AmigrateDatabase\u0028\u0029",
+            "name": "migrateDatabase",
+            "summary": "Executes\u0020the\u0020artisan\u0020migrate\u0020command",
+            "url": "classes/App-Installer-Installer.html#method_migrateDatabase"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AinstallPassport\u0028\u0029",
+            "name": "installPassport",
+            "summary": "Executes\u0020the\u0020artisan\u0020passport\u003Ainstall\u0020command",
+            "url": "classes/App-Installer-Installer.html#method_installPassport"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AseedDatabase\u0028\u0029",
+            "name": "seedDatabase",
+            "summary": "Executes\u0020the\u0020artisan\u0020db\u003Aseed\u0020command",
+            "url": "classes/App-Installer-Installer.html#method_seedDatabase"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AfinishInstall\u0028\u0029",
+            "name": "finishInstall",
+            "summary": "Finishes\u0020up\u0020the\u0020Shoutz0r\u0020installation\u0020by\u0020setting\u0020shoutzor.installed\u0020to\u0020true,\u0020and\u0020rebuilding\u0020the\u0020config\u0020cache",
+            "url": "classes/App-Installer-Installer.html#method_finishInstall"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003ArebuildConfigCache\u0028\u0029",
+            "name": "rebuildConfigCache",
+            "summary": "rebuilds\u0020the\u0020config\u0020cache",
+            "url": "classes/App-Installer-Installer.html#method_rebuildConfigCache"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003A\u0024installSteps",
+            "name": "installSteps",
+            "summary": "Contains\u0020the\u0020installer\u0020steps\u0020in\u0020the\u0020correct\u0020order\u0020of\u0020execution",
+            "url": "classes/App-Installer-Installer.html#property_installSteps"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003A\u0024dbValues",
+            "name": "dbValues",
+            "summary": "This\u0020array\u0020defines\u0020the\u0020valid\u0020fields\u0020for\u0020each\u0020database\u0020type.",
+            "url": "classes/App-Installer-Installer.html#property_dbValues"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult",
+            "name": "InstallStepResult",
+            "summary": "This\u0020class\u0020contains\u0020information\u0020about\u0020the\u0020step\u0020performed\u0020in\u0020the\u0020App\\Installer\\Installer\u0020class\nsuch\u0020as\u003A\u0020if\u0020it\u0020succeeded\u0020or\u0020not,\u0020what\u0020the\u0020response\u0020is,\u0020and\u0020possibly\u0020what\u0020exception\u0020was\u0020thrown",
+            "url": "classes/App-Installer-InstallStepResult.html"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Installer-InstallStepResult.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003Asucceeded\u0028\u0029",
+            "name": "succeeded",
+            "summary": "Returns\u0020if\u0020the\u0020Install\u0020step\u0020has\u0020succeeded\u0020or\u0020not",
+            "url": "classes/App-Installer-InstallStepResult.html#method_succeeded"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003AgetOutput\u0028\u0029",
+            "name": "getOutput",
+            "summary": "Returns\u0020the\u0020output\u0020from\u0020the\u0020install\u0020step",
+            "url": "classes/App-Installer-InstallStepResult.html#method_getOutput"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003AgetException\u0028\u0029",
+            "name": "getException",
+            "summary": "Returns\u0020the\u0020exception,\u0020if\u0020any\u003B\u0020that\u0020has\u0020been\u0020thrown\u0020in\u0020the\u0020install\u0020step",
+            "url": "classes/App-Installer-InstallStepResult.html#method_getException"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003A\u0024success",
+            "name": "success",
+            "summary": "Indicates\u0020if\u0020the\u0020install\u0020step\u0020has\u0020succeeded\u0020or\u0020not",
+            "url": "classes/App-Installer-InstallStepResult.html#property_success"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003A\u0024output",
+            "name": "output",
+            "summary": "Contains\u0020the\u0020output\u0020of\u0020the\u0020install\u0020step",
+            "url": "classes/App-Installer-InstallStepResult.html#property_output"
+        },                {
+            "fqsen": "\\App\\Installer\\InstallStepResult\u003A\u003A\u0024exception",
+            "name": "exception",
+            "summary": "If\u0020the\u0020install\u0020step\u0020has\u0020failed,\u0020this\u0020might\u0020contain\u0020the\u0020exception\u0020that\u0020has\u0020been\u0020thrown",
+            "url": "classes/App-Installer-InstallStepResult.html#property_exception"
         },                {
             "fqsen": "\\App\\Jobs\\ProcessUpload",
             "name": "ProcessUpload",
@@ -1696,6 +1871,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/app.html"
         },                {
+            "fqsen": "\\App\\Console\\Commands",
+            "name": "Commands",
+            "summary": "",
+            "url": "namespaces/app-console-commands.html"
+        },                {
             "fqsen": "\\App\\Console",
             "name": "Console",
             "summary": "",
@@ -1755,6 +1935,11 @@ Search.appendIndex(
             "name": "Middleware",
             "summary": "",
             "url": "namespaces/app-http-middleware.html"
+        },                {
+            "fqsen": "\\App\\Installer",
+            "name": "Installer",
+            "summary": "",
+            "url": "namespaces/app-installer.html"
         },                {
             "fqsen": "\\App\\Jobs",
             "name": "Jobs",

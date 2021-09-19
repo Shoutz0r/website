@@ -81,6 +81,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/app-installer.html">Installer</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/app-jobs.html">Jobs</a>
                 
             </li>
@@ -163,8 +167,8 @@
 
     </aside>
 
-        
-    <section class="phpdocumentor-description"></section>
+            <p class="phpdocumentor-summary">Handles the API-calls from the Graphical Installer</p>
+
 
 
 
@@ -180,9 +184,9 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installSteps">$installSteps</a>
+    <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installer">$installer</a>
     <span>
-                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                &nbsp;: <a href="classes/App-Installer-Installer.html"><abbr title="\App\Installer\Installer">Installer</abbr></a>            </span>
 </dt>
 <dd></dd>
 
@@ -194,39 +198,53 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_configureDatabaseSettings">configureDatabaseSettings()</a>
+    <span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
+</dt>
+<dd>Configures the database</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doDatabaseSeeding">doDatabaseSeeding()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
 </dt>
-<dd></dd>
+<dd>Performs the database seeding step</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doFinishInstall">doFinishInstall()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
 </dt>
-<dd></dd>
+<dd>Performs the finish Install step</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doMigrateDatabase">doMigrateDatabase()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
 </dt>
-<dd></dd>
+<dd>Performs the migrate database step</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doPassportInstall">doPassportInstall()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
 </dt>
-<dd></dd>
+<dd>Performs the passport install step</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getDatabaseFields">getDatabaseFields()</a>
+    <span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
+</dt>
+<dd>Returns the valid Database fields</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getSetupSteps">getSetupSteps()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: <abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr>    </span>
 </dt>
-<dd></dd>
+<dd>Returns the steps for the installation</dd>
 
         </dl>
 
@@ -247,9 +265,9 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_installSteps">
-        $installSteps
-        <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installSteps" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_installer">
+        $installer
+        <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installer" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
@@ -263,8 +281,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$installSteps</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/App-Installer-Installer.html"><abbr title="\App\Installer\Installer">Installer</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$installer</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -320,24 +338,24 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_doDatabaseSeeding">
-        doDatabaseSeeding()
-        <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doDatabaseSeeding" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_configureDatabaseSettings">
+        configureDatabaseSettings()
+        <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_configureDatabaseSettings" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Configures the database</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">doDatabaseSeeding</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">configureDatabaseSettings</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -345,15 +363,57 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_doDatabaseSeeding">
+        doDatabaseSeeding()
+        <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doDatabaseSeeding" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">108</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Performs the database seeding step</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">doDatabaseSeeding</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$request</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
             &mdash;
         
     
@@ -371,17 +431,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">114</span>
+    <span class="phpdocumentor-element-found-in__line">124</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Performs the finish Install step</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">doFinishInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">doFinishInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -389,15 +449,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
             &mdash;
         
     
@@ -415,17 +474,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Performs the migrate database step</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">doMigrateDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">doMigrateDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -433,15 +492,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
             &mdash;
         
     
@@ -459,17 +517,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Performs the passport install step</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">doPassportInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">doPassportInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -477,15 +535,57 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDatabaseFields">
+        getDatabaseFields()
+        <a href="classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getDatabaseFields" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the valid Database fields</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDatabaseFields</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$request</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
             &mdash;
         
     
@@ -503,17 +603,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installersetupcontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerSetupController.php">InstallerSetupController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Returns the steps for the installation</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSetupSteps</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">getSetupSteps</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -521,15 +621,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Http\JsonResponse">JsonResponse</abbr></span>
             &mdash;
         
     

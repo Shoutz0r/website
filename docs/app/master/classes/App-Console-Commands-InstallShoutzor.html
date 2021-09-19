@@ -81,6 +81,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/app-installer.html">Installer</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/app-jobs.html">Jobs</a>
                 
             </li>
@@ -133,17 +137,16 @@
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/app.html">App</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/app-http.html">Http</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/app-http-controllers.html">Controllers</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/app-http-controllers-installer.html">Installer</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/app-console.html">Console</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/app-console-commands.html">Commands</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    InstallerDatabaseController
+    InstallShoutzor
 
         <span class="phpdocumentor-element__extends">
-        extends <a href="classes/App-Http-Controllers-Controller.html"><abbr title="\App\Http\Controllers\Controller">Controller</abbr></a>
+        extends <abbr title="\Illuminate\Console\Command">Command</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -157,14 +160,16 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installerdatabasecontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php">InstallerDatabaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
-        
-    <section class="phpdocumentor-description"></section>
+            <p class="phpdocumentor-summary">An Artisan command allowing for command-line installation of Shoutzor.</p>
+
+    <section class="phpdocumentor-description"><p>The Functionality of this installer is identical to the graphical installer of Shoutzor.</p>
+</section>
 
 
 
@@ -179,33 +184,54 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#property_dbValues">$dbValues</a>
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#property_description">$description</a>
     <span>
-                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                &nbsp;: string            </span>
 </dt>
-<dd></dd>
+<dd>The console command description.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#property_signature">$signature</a>
+    <span>
+                &nbsp;: string            </span>
+</dt>
+<dd>The name and signature of the console command.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#property_installer">$installer</a>
+    <span>
+                &nbsp;: <a href="classes/App-Installer-Installer.html"><abbr title="\App\Installer\Installer">Installer</abbr></a>            </span>
+</dt>
+<dd>Instance of the Installer class</dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method___construct">__construct()</a>
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#method___construct">__construct()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: void    </span>
 </dt>
-<dd></dd>
+<dd>Create a new command instance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method_configureDatabaseSettings">configureDatabaseSettings()</a>
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#method_handle">handle()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: int    </span>
 </dt>
-<dd></dd>
+<dd>Runs the shoutzor install command.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method_getDatabaseFields">getDatabaseFields()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#method_checkHealth">checkHealth()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
+<dd>Runs the healthchecks and will perform an auto-fix if any issues are detected</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/App-Console-Commands-InstallShoutzor.html#method_performInstall">performInstall()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Performs the actual installation of Shoutzor</dd>
 
         </dl>
 
@@ -217,8 +243,76 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/App-Console-Commands-InstallShoutzor.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_description">
+        $description
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#property_description" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The console command description.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$description</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;Installs Shoutz0r via the command line&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_signature">
+        $signature
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#property_signature" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The name and signature of the console command.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$signature</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;shoutzor:install {--useenv}&#039;</span></code>
+
+        <section class="phpdocumentor-description"><p>--useenv indicates that the existing .env file should be used during installation.</p>
+</section>
+
+    
+    
+
+</article>
                     <article
         class="
             phpdocumentor-element
@@ -226,30 +320,29 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dbValues">
-        $dbValues
-        <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#property_dbValues" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_installer">
+        $installer
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#property_installer" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installerdatabasecontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php">InstallerDatabaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Instance of the Installer class</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$dbValues</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/App-Installer-Installer.html"><abbr title="\App\Installer\Installer">Installer</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$installer</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -258,7 +351,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/App-Console-Commands-InstallShoutzor.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -268,27 +361,27 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installerdatabasecontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php">InstallerDatabaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Create a new command instance.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
         
     
@@ -299,37 +392,75 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_configureDatabaseSettings">
-        configureDatabaseSettings()
-        <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method_configureDatabaseSettings" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_handle">
+        handle()
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#method_handle" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installerdatabasecontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php">InstallerDatabaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Runs the shoutzor install command.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">configureDatabaseSettings</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">handle</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$request</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
+        <section class="phpdocumentor-description"><p>This will execute the same steps as the graphical installation wizard.</p>
+</section>
 
     
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_checkHealth">
+        checkHealth()
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#method_checkHealth" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">80</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Runs the healthchecks and will perform an auto-fix if any issues are detected</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">checkHealth</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
@@ -340,32 +471,32 @@
                     <article
         class="phpdocumentor-element
             -method
-            -public
+            -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getDatabaseFields">
-        getDatabaseFields()
-        <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#method_getDatabaseFields" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_performInstall">
+        performInstall()
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#method_performInstall" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php"><a href="files/shoutz0r-app-app-http-controllers-installer-installerdatabasecontroller.html"><abbr title="Shoutz0r-app/app/Http/Controllers/Installer/InstallerDatabaseController.php">InstallerDatabaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
+    <span class="phpdocumentor-element-found-in__line">128</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Performs the actual installation of Shoutzor</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getDatabaseFields</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">performInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useEnv</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$request</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Http\Request">Request</abbr></span>
+                <span class="phpdocumentor-signature__argument__name">$useEnv</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -374,6 +505,20 @@
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
@@ -459,7 +604,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/App-Http-Controllers-Installer-InstallerDatabaseController.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/App-Console-Commands-InstallShoutzor.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
