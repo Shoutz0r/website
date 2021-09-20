@@ -1126,6 +1126,11 @@ Search.appendIndex(
             "summary": "Configures\u0020the\u0020database",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_configureDatabaseSettings"
         },                {
+            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoGenerateAppKey\u0028\u0029",
+            "name": "doGenerateAppKey",
+            "summary": "Performs\u0020the\u0020key\u003Agenerate\u0020step",
+            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doGenerateAppKey"
+        },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoMigrateDatabase\u0028\u0029",
             "name": "doMigrateDatabase",
             "summary": "Performs\u0020the\u0020migrate\u0020database\u0020step",
@@ -1320,6 +1325,11 @@ Search.appendIndex(
             "name": "configureSql",
             "summary": "Tests\u0020\u0026\u0020Configures\u0020the\u0020SQL\u0020settings\u0020to\u0020use",
             "url": "classes/App-Installer-Installer.html#method_configureSql"
+        },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AgenerateAppKey\u0028\u0029",
+            "name": "generateAppKey",
+            "summary": "Executes\u0020the\u0020artisan\u0020key\u003Agenerate\u0020command\u0020to\u0020generate\u0020an\u0020APP_KEY",
+            "url": "classes/App-Installer-Installer.html#method_generateAppKey"
         },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003AmigrateDatabase\u0028\u0029",
             "name": "migrateDatabase",
