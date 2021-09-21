@@ -1126,30 +1126,10 @@ Search.appendIndex(
             "summary": "Configures\u0020the\u0020database",
             "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_configureDatabaseSettings"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoGenerateAppKey\u0028\u0029",
-            "name": "doGenerateAppKey",
-            "summary": "Performs\u0020the\u0020key\u003Agenerate\u0020step",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doGenerateAppKey"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoMigrateDatabase\u0028\u0029",
-            "name": "doMigrateDatabase",
-            "summary": "Performs\u0020the\u0020migrate\u0020database\u0020step",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doMigrateDatabase"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoPassportInstall\u0028\u0029",
-            "name": "doPassportInstall",
-            "summary": "Performs\u0020the\u0020passport\u0020install\u0020step",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doPassportInstall"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoDatabaseSeeding\u0028\u0029",
-            "name": "doDatabaseSeeding",
-            "summary": "Performs\u0020the\u0020database\u0020seeding\u0020step",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doDatabaseSeeding"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AdoFinishInstall\u0028\u0029",
-            "name": "doFinishInstall",
-            "summary": "Performs\u0020the\u0020finish\u0020Install\u0020step",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_doFinishInstall"
+            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AinstallStep\u0028\u0029",
+            "name": "installStep",
+            "summary": "Dynamically\u0020call\u0020the\u0020method\u0020from\u0020the\u0020Installer\u0020that\u0020belongs\u0020to\u0020the\u0020API\u0020slug",
+            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_installStep"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003A\u0024installer",
             "name": "installer",
@@ -1311,16 +1291,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Installer-Installer.html#method___construct"
         },                {
-            "fqsen": "\\App\\Installer\\Installer\u003A\u003AgetSteps\u0028\u0029",
-            "name": "getSteps",
-            "summary": "Returns\u0020the\u0020installation\u0020steps",
-            "url": "classes/App-Installer-Installer.html#method_getSteps"
-        },                {
-            "fqsen": "\\App\\Installer\\Installer\u003A\u003AgetDbFields\u0028\u0029",
-            "name": "getDbFields",
-            "summary": "Returns\u0020the\u0020valid\u0020database\u0020fields\u0020that\u0020can\u0020be\u0020used\u0020for\u0020configuring\u0020the\u0020database.",
-            "url": "classes/App-Installer-Installer.html#method_getDbFields"
-        },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003AconfigureSql\u0028\u0029",
             "name": "configureSql",
             "summary": "Tests\u0020\u0026\u0020Configures\u0020the\u0020SQL\u0020settings\u0020to\u0020use",
@@ -1346,6 +1316,11 @@ Search.appendIndex(
             "summary": "Executes\u0020the\u0020artisan\u0020db\u003Aseed\u0020command",
             "url": "classes/App-Installer-Installer.html#method_seedDatabase"
         },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AgenerateCache\u0028\u0029",
+            "name": "generateCache",
+            "summary": "Generates\u0020laravel\u0020cache\u0020for\u0020things\u0020like\u0020Routes\u0020\u0026\u0020Views\u0020to\u0020speed\u0020up\u0020requests",
+            "url": "classes/App-Installer-Installer.html#method_generateCache"
+        },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003AfinishInstall\u0028\u0029",
             "name": "finishInstall",
             "summary": "Finishes\u0020up\u0020the\u0020Shoutz0r\u0020installation\u0020by\u0020setting\u0020shoutzor.installed\u0020to\u0020true,\u0020and\u0020rebuilding\u0020the\u0020config\u0020cache",
@@ -1358,13 +1333,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003A\u0024installSteps",
             "name": "installSteps",
-            "summary": "Contains\u0020the\u0020installer\u0020steps\u0020in\u0020the\u0020correct\u0020order\u0020of\u0020execution",
+            "summary": "Contains\u0020the\u0020installer\u0020steps\u0020in\u0020the\u0020correct\u0020order\u0020of\u0020execution\nThe\u0020slug\u0020must\u0020consist\u0020of\u0020\u0028lowercase\u0029\u0020a\u002Dz\u0020or\u0020dashes\u0020only\u0021",
             "url": "classes/App-Installer-Installer.html#property_installSteps"
         },                {
-            "fqsen": "\\App\\Installer\\Installer\u003A\u003A\u0024dbValues",
-            "name": "dbValues",
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003A\u0024dbFields",
+            "name": "dbFields",
             "summary": "This\u0020array\u0020defines\u0020the\u0020valid\u0020fields\u0020for\u0020each\u0020database\u0020type.",
-            "url": "classes/App-Installer-Installer.html#property_dbValues"
+            "url": "classes/App-Installer-Installer.html#property_dbFields"
         },                {
             "fqsen": "\\App\\Installer\\InstallStepResult",
             "name": "InstallStepResult",

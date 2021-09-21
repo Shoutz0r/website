@@ -178,19 +178,20 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Installer-Installer.html#property_dbValues">$dbValues</a>
+                <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/App-Installer-Installer.html#property_dbFields">$dbFields</a>
     <span>
                 &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd>This array defines the valid fields for each database type.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/App-Installer-Installer.html#property_installSteps">$installSteps</a>
     <span>
                 &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
-<dd>Contains the installer steps in the correct order of execution</dd>
+<dd>Contains the installer steps in the correct order of execution
+The slug must consist of (lowercase) a-z or dashes only!</dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Installer-Installer.html#method___construct">__construct()</a>
@@ -221,18 +222,11 @@
 <dd>Executes the artisan key:generate command to generate an APP_KEY</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Installer-Installer.html#method_getDbFields">getDbFields()</a>
+    <a href="classes/App-Installer-Installer.html#method_generateCache">generateCache()</a>
     <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, array&lt;string|int, string&gt;&gt;&gt;    </span>
+                        &nbsp;: <a href="classes/App-Installer-InstallStepResult.html"><abbr title="\App\Installer\InstallStepResult">InstallStepResult</abbr></a>    </span>
 </dt>
-<dd>Returns the valid database fields that can be used for configuring the database.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Installer-Installer.html#method_getSteps">getSteps()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, mixed&gt;&gt;    </span>
-</dt>
-<dd>Returns the installation steps</dd>
+<dd>Generates laravel cache for things like Routes &amp; Views to speed up requests</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Installer-Installer.html#method_installPassport">installPassport()</a>
@@ -278,29 +272,29 @@
         class="
             phpdocumentor-element
             -property
-            -private
-                                                        "
+            -public
+            -static                                            "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dbValues">
-        $dbValues
-        <a href="classes/App-Installer-Installer.html#property_dbValues" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_dbFields">
+        $dbFields
+        <a href="classes/App-Installer-Installer.html#property_dbFields" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">This array defines the valid fields for each database type.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$dbValues</span>
-    </code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$dbFields</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;mysql&#039; =&gt; [&#039;host&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.mysql.host&#039;, &#039;dotenv&#039; =&gt; &#039;DB_HOST&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;localhost&#039;], &#039;port&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|numeric|integer&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.mysql.port&#039;, &#039;dotenv&#039; =&gt; &#039;DB_PORT&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;3306&#039;], &#039;database&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.mysql.database&#039;, &#039;dotenv&#039; =&gt; &#039;DB_DATABASE&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;shoutzor&#039;], &#039;username&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.mysql.username&#039;, &#039;dotenv&#039; =&gt; &#039;DB_USERNAME&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;shoutzor&#039;], &#039;password&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.mysql.password&#039;, &#039;dotenv&#039; =&gt; &#039;DB_PASSWORD&#039;, &#039;type&#039; =&gt; &#039;password&#039;, &#039;default&#039; =&gt; &#039;&#039;]], &#039;pgsql&#039; =&gt; [&#039;host&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.pgsql.host&#039;, &#039;dotenv&#039; =&gt; &#039;DB_HOST&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;localhost&#039;], &#039;port&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|numeric|integer&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.pgsql.port&#039;, &#039;dotenv&#039; =&gt; &#039;DB_PORT&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;5432&#039;], &#039;database&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.pgsql.database&#039;, &#039;dotenv&#039; =&gt; &#039;DB_DATABASE&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;shoutzor&#039;], &#039;username&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.pgsql.username&#039;, &#039;dotenv&#039; =&gt; &#039;DB_USERNAME&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;shoutzor&#039;], &#039;password&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.pgsql.password&#039;, &#039;dotenv&#039; =&gt; &#039;DB_PASSWORD&#039;, &#039;type&#039; =&gt; &#039;password&#039;, &#039;default&#039; =&gt; &#039;&#039;]], &#039;sqlsrv&#039; =&gt; [&#039;host&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.sqlsrv.host&#039;, &#039;dotenv&#039; =&gt; &#039;DB_HOST&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;localhost&#039;], &#039;port&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|numeric|integer&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.sqlsrv.port&#039;, &#039;dotenv&#039; =&gt; &#039;DB_PORT&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;1433&#039;], &#039;database&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.sqlsrv.database&#039;, &#039;dotenv&#039; =&gt; &#039;DB_DATABASE&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;shoutzor&#039;], &#039;username&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.sqlsrv.username&#039;, &#039;dotenv&#039; =&gt; &#039;DB_USERNAME&#039;, &#039;type&#039; =&gt; &#039;text&#039;, &#039;default&#039; =&gt; &#039;shoutzor&#039;], &#039;password&#039; =&gt; [&#039;validate&#039; =&gt; &#039;required|string&#039;, &#039;dotconfig&#039; =&gt; &#039;database.connections.sqlsrv.password&#039;, &#039;dotenv&#039; =&gt; &#039;DB_PASSWORD&#039;, &#039;type&#039; =&gt; &#039;password&#039;, &#039;default&#039; =&gt; &#039;&#039;]]]</span></code>
 
         <section class="phpdocumentor-description"><p>As well as relevant information such as the validation requirements, type, dotconfig and dotenv keys.</p>
 </section>
@@ -313,8 +307,8 @@
         class="
             phpdocumentor-element
             -property
-            -private
-                                                        "
+            -public
+            -static                                            "
 >
     <h4 class="phpdocumentor-element__name" id="property_installSteps">
         $installSteps
@@ -325,17 +319,18 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Contains the installer steps in the correct order of execution</p>
+        <p class="phpdocumentor-summary">Contains the installer steps in the correct order of execution
+The slug must consist of (lowercase) a-z or dashes only!</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$installSteps</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">[[&#039;name&#039; =&gt; &#039;Generate App Key&#039;, &#039;description&#039; =&gt; &#039;Generates an APP_KEY in the env file&#039;, &#039;slug&#039; =&gt; &#039;generate-app-key&#039;, &#039;running&#039; =&gt; false, &#039;status&#039; =&gt; -1, &#039;method&#039; =&gt; &#039;generateAppKey&#039;], [&#039;name&#039; =&gt; &#039;Database migrations&#039;, &#039;description&#039; =&gt; &#039;Creates tables and indexes in the database&#039;, &#039;slug&#039; =&gt; &#039;migrate-database&#039;, &#039;running&#039; =&gt; false, &#039;status&#039; =&gt; -1, &#039;method&#039; =&gt; &#039;migrateDatabase&#039;], [&#039;name&#039; =&gt; &#039;Generate Encryption Keys&#039;, &#039;description&#039; =&gt; &#039;creates the encryption keys needed to generate secure access tokens&#039;, &#039;slug&#039; =&gt; &#039;generate-keys&#039;, &#039;running&#039; =&gt; false, &#039;status&#039; =&gt; -1, &#039;method&#039; =&gt; &#039;installPassport&#039;], [&#039;name&#039; =&gt; &#039;Database seeding&#039;, &#039;description&#039; =&gt; &#039;Adds initial data to the database&#039;, &#039;slug&#039; =&gt; &#039;seed-database&#039;, &#039;running&#039; =&gt; false, &#039;status&#039; =&gt; -1, &#039;method&#039; =&gt; &#039;seedDatabase&#039;], [&#039;name&#039; =&gt; &#039;Generate cache&#039;, &#039;description&#039; =&gt; &#039;Generate cache to speed up requests&#039;, &#039;slug&#039; =&gt; &#039;generate-cache&#039;, &#039;running&#039; =&gt; false, &#039;status&#039; =&gt; -1, &#039;method&#039; =&gt; &#039;generateCache&#039;], [&#039;name&#039; =&gt; &#039;Finishing up&#039;, &#039;description&#039; =&gt; &#039;Finalize the installation&#039;, &#039;slug&#039; =&gt; &#039;finish-install&#039;, &#039;running&#039; =&gt; false, &#039;status&#039; =&gt; -1, &#039;method&#039; =&gt; &#039;finishInstall&#039;]]</span></code>
 
     
     
@@ -362,7 +357,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">191</span>
 
     </aside>
 
@@ -395,7 +390,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">216</span>
+    <span class="phpdocumentor-element-found-in__line">205</span>
 
     </aside>
 
@@ -473,7 +468,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">385</span>
+    <span class="phpdocumentor-element-found-in__line">397</span>
 
     </aside>
 
@@ -506,7 +501,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">305</span>
+    <span class="phpdocumentor-element-found-in__line">294</span>
 
     </aside>
 
@@ -532,64 +527,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getDbFields">
-        getDbFields()
-        <a href="classes/App-Installer-Installer.html#method_getDbFields" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_generateCache">
+        generateCache()
+        <a href="classes/App-Installer-Installer.html#method_generateCache" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">374</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Returns the valid database fields that can be used for configuring the database.</p>
+        <p class="phpdocumentor-summary">Generates laravel cache for things like Routes &amp; Views to speed up requests</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getDbFields</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, string&gt;&gt;&gt;</span></code>
-
-        <section class="phpdocumentor-description"><p>These fields contain information such as what their relevant dotconfig and dotenv values are</p>
-</section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, string&gt;&gt;&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getSteps">
-        getSteps()
-        <a href="classes/App-Installer-Installer.html#method_getSteps" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">193</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the installation steps</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getSteps</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span></code>
+                <span class="phpdocumentor-signature__name">generateCache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/App-Installer-InstallStepResult.html"><abbr title="\App\Installer\InstallStepResult">InstallStepResult</abbr></a></span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/App-Installer-InstallStepResult.html"><abbr title="\App\Installer\InstallStepResult">InstallStepResult</abbr></a></span>
             &mdash;
         
     
@@ -607,7 +567,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">345</span>
+    <span class="phpdocumentor-element-found-in__line">334</span>
 
     </aside>
 
@@ -640,7 +600,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">325</span>
+    <span class="phpdocumentor-element-found-in__line">314</span>
 
     </aside>
 
@@ -673,7 +633,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">412</span>
+    <span class="phpdocumentor-element-found-in__line">424</span>
 
     </aside>
 
@@ -706,7 +666,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Installer/Installer.php"><a href="files/shoutz0r-app-app-installer-installer.html"><abbr title="Shoutz0r-app/app/Installer/Installer.php">Installer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">365</span>
+    <span class="phpdocumentor-element-found-in__line">354</span>
 
     </aside>
 
