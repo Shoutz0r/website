@@ -1,14 +1,27 @@
 $(function() {
-	// Set Commit count
-	$.getJSON("https://api.github.com/repos/xorinzor/Shoutz0r-app/stats/contributors", function(data) {
-		var commitCount = 0;
+	// Get the commit count 
+	// (first request after new commit will return 202, then needs to be reloaded)
+	function updateCommitCount() {
+	  $.getJSON("https://api.github.com/repos/xorinzor/Shoutz0r-app/stats/contributors", function(data, statusText, jqxhr) {
+	    if(jqxhr.status === 202) {
+				setTimeout(updateCommitCount, 1000);
+	    } 
+	    else if(jqxhr.status === 200) {
+	      var commitCount = 0;
 
-		$.each(data, function(k,v) {
-			commitCount += v.total;
-		});
+	      $.each(data, function(k,v) {
+	        commitCount += v.total;
+	      });
 
-		$("#repoCommitCount").html(commitCount);
-	});
+	      $("#repoCommitCount").html(commitCount);
+	    }
+	    else {
+	    	$("#repoCommitCount").html("?");
+	    }
+	  });
+	}
+
+	updateCommitCount();
 
 	// Set Star and Issue count
 	$.getJSON("https://api.github.com/repos/xorinzor/Shoutz0r-app", function(data) {
