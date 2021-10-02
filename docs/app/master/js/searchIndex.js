@@ -1226,25 +1226,25 @@ Search.appendIndex(
             "summary": "The\u0020names\u0020of\u0020the\u0020cookies\u0020that\u0020should\u0020not\u0020be\u0020encrypted.",
             "url": "classes/App-Http-Middleware-EncryptCookies.html#property_except"
         },                {
-            "fqsen": "\\App\\Http\\Middleware\\RedirectIfInstalled",
-            "name": "RedirectIfInstalled",
+            "fqsen": "\\App\\Http\\Middleware\\RequireInstalled",
+            "name": "RequireInstalled",
             "summary": "",
-            "url": "classes/App-Http-Middleware-RedirectIfInstalled.html"
+            "url": "classes/App-Http-Middleware-RequireInstalled.html"
         },                {
-            "fqsen": "\\App\\Http\\Middleware\\RedirectIfInstalled\u003A\u003Ahandle\u0028\u0029",
+            "fqsen": "\\App\\Http\\Middleware\\RequireInstalled\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
-            "url": "classes/App-Http-Middleware-RedirectIfInstalled.html#method_handle"
+            "url": "classes/App-Http-Middleware-RequireInstalled.html#method_handle"
         },                {
-            "fqsen": "\\App\\Http\\Middleware\\RedirectIfNotInstalled",
-            "name": "RedirectIfNotInstalled",
+            "fqsen": "\\App\\Http\\Middleware\\RequireNotInstalled",
+            "name": "RequireNotInstalled",
             "summary": "",
-            "url": "classes/App-Http-Middleware-RedirectIfNotInstalled.html"
+            "url": "classes/App-Http-Middleware-RequireNotInstalled.html"
         },                {
-            "fqsen": "\\App\\Http\\Middleware\\RedirectIfNotInstalled\u003A\u003Ahandle\u0028\u0029",
+            "fqsen": "\\App\\Http\\Middleware\\RequireNotInstalled\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
-            "url": "classes/App-Http-Middleware-RedirectIfNotInstalled.html#method_handle"
+            "url": "classes/App-Http-Middleware-RequireNotInstalled.html#method_handle"
         },                {
             "fqsen": "\\App\\Http\\Middleware\\TrimStrings",
             "name": "TrimStrings",
