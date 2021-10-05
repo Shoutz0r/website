@@ -881,31 +881,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Http-Controllers-Api-MediaSourceApiController.html#method_get"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ModuleApiController",
-            "name": "ModuleApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-ModuleApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ModuleApiController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-ModuleApiController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ModuleApiController\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-ModuleApiController.html#method_get"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ModuleApiController\u003A\u003Aenable\u0028\u0029",
-            "name": "enable",
-            "summary": "Enable\u0020a\u0020Module",
-            "url": "classes/App-Http-Controllers-Api-ModuleApiController.html#method_enable"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ModuleApiController\u003A\u003Adisable\u0028\u0029",
-            "name": "disable",
-            "summary": "Disable\u0020a\u0020Module",
-            "url": "classes/App-Http-Controllers-Api-ModuleApiController.html#method_disable"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController",
             "name": "PermissionApiController",
             "summary": "",
@@ -1195,16 +1170,6 @@ Search.appendIndex(
             "name": "handle",
             "summary": "Since\u0020the\u0020spatie\/laravel\u002Dpermission\u0020package\u0020doesn\u0027t\u0020allow\u0020natively\u0020to\u0020assign\u0020a\u0020role\u0020to\u0020a\u0020guest\u0020user\nthis\u0020piece\u0020of\u0020middleware\u0020will\u0020intercept\u0020the\u0020request\u0020and\u0020execute\u0020the\u0020check\u0020manually.",
             "url": "classes/App-Http-Middleware-Authorize.html#method_handle"
-        },                {
-            "fqsen": "\\App\\Http\\Middleware\\CanInstall",
-            "name": "CanInstall",
-            "summary": "",
-            "url": "classes/App-Http-Middleware-CanInstall.html"
-        },                {
-            "fqsen": "\\App\\Http\\Middleware\\CanInstall\u003A\u003Ahandle\u0028\u0029",
-            "name": "handle",
-            "summary": "Since\u0020the\u0020spatie\/laravel\u002Dpermission\u0020package\u0020doesn\u0027t\u0020allow\u0020natively\u0020to\u0020assign\u0020a\u0020role\u0020to\u0020a\u0020guest\u0020user\nthis\u0020piece\u0020of\u0020middleware\u0020will\u0020intercept\u0020the\u0020request\u0020and\u0020execute\u0020the\u0020check\u0020manually.",
-            "url": "classes/App-Http-Middleware-CanInstall.html#method_handle"
         },                {
             "fqsen": "\\App\\Http\\Middleware\\CheckForMaintenanceMode",
             "name": "CheckForMaintenanceMode",
@@ -1736,10 +1701,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Request.html#method_media"
         },                {
-            "fqsen": "\\App\\Request\u003A\u003Auser\u0028\u0029",
-            "name": "user",
+            "fqsen": "\\App\\Request\u003A\u003Ausers\u0028\u0029",
+            "name": "users",
             "summary": "",
-            "url": "classes/App-Request.html#method_user"
+            "url": "classes/App-Request.html#method_users"
         },                {
             "fqsen": "\\App\\Request\u003A\u003ACREATED_AT",
             "name": "CREATED_AT",
@@ -1760,6 +1725,26 @@ Search.appendIndex(
             "name": "hidden",
             "summary": "",
             "url": "classes/App-Role.html#property_hidden"
+        },                {
+            "fqsen": "\\App\\Traits\\UsesUUID",
+            "name": "UsesUUID",
+            "summary": "",
+            "url": "classes/App-Traits-UsesUUID.html"
+        },                {
+            "fqsen": "\\App\\Traits\\UsesUUID\u003A\u003AbootUsesUuid\u0028\u0029",
+            "name": "bootUsesUuid",
+            "summary": "",
+            "url": "classes/App-Traits-UsesUUID.html#method_bootUsesUuid"
+        },                {
+            "fqsen": "\\App\\Traits\\UsesUUID\u003A\u003AgetIncrementing\u0028\u0029",
+            "name": "getIncrementing",
+            "summary": "",
+            "url": "classes/App-Traits-UsesUUID.html#method_getIncrementing"
+        },                {
+            "fqsen": "\\App\\Traits\\UsesUUID\u003A\u003AgetKeyType\u0028\u0029",
+            "name": "getKeyType",
+            "summary": "",
+            "url": "classes/App-Traits-UsesUUID.html#method_getKeyType"
         },                {
             "fqsen": "\\App\\Upload",
             "name": "Upload",
@@ -1845,6 +1830,16 @@ Search.appendIndex(
             "name": "user",
             "summary": "",
             "url": "classes/App-Vote.html#method_user"
+        },                {
+            "fqsen": "\\App\\Vote\u003A\u003A\u0024incrementing",
+            "name": "incrementing",
+            "summary": "",
+            "url": "classes/App-Vote.html#property_incrementing"
+        },                {
+            "fqsen": "\\App\\Vote\u003A\u003A\u0024timestamps",
+            "name": "timestamps",
+            "summary": "",
+            "url": "classes/App-Vote.html#property_timestamps"
         },                {
             "fqsen": "\\",
             "name": "\\",
@@ -1950,5 +1945,10 @@ Search.appendIndex(
             "name": "Providers",
             "summary": "",
             "url": "namespaces/app-providers.html"
+        },                {
+            "fqsen": "\\App\\Traits",
+            "name": "Traits",
+            "summary": "",
+            "url": "namespaces/app-traits.html"
         }            ]
 );
