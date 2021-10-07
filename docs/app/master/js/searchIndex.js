@@ -1296,6 +1296,11 @@ Search.appendIndex(
             "summary": "rebuilds\u0020the\u0020config\u0020cache",
             "url": "classes/App-Installer-Installer.html#method_rebuildConfigCache"
         },                {
+            "fqsen": "\\App\\Installer\\Installer\u003A\u003AdevelopmentSeedDatabase\u0028\u0029",
+            "name": "developmentSeedDatabase",
+            "summary": "Runs\u0020the\u0020seeder\u0020that\u0020aids\u0020during\u0020development",
+            "url": "classes/App-Installer-Installer.html#method_developmentSeedDatabase"
+        },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003A\u0024installSteps",
             "name": "installSteps",
             "summary": "Contains\u0020the\u0020installer\u0020steps\u0020in\u0020the\u0020correct\u0020order\u0020of\u0020execution\nThe\u0020slug\u0020must\u0020consist\u0020of\u0020\u0028lowercase\u0029\u0020a\u002Dz\u0020or\u0020dashes\u0020only\u0021",

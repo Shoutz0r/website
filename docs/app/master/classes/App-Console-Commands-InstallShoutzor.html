@@ -265,7 +265,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -298,7 +298,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -308,9 +308,10 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$signature</span>
-     = <span class="phpdocumentor-signature__default-value">&#039;shoutzor:install {--useenv}&#039;</span></code>
+     = <span class="phpdocumentor-signature__default-value">&#039;shoutzor:install {--useenv} {--dev}&#039;</span></code>
 
-        <section class="phpdocumentor-description"><p>--useenv indicates that the existing .env file should be used during installation.</p>
+        <section class="phpdocumentor-description"><p>--useenv indicates that the existing .env file should be used during installation.
+--dev indicates that this is a development environment and will populate the database with dummy data</p>
 </section>
 
     
@@ -333,7 +334,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -370,7 +371,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
@@ -403,7 +404,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -438,7 +439,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 
     </aside>
 
@@ -485,7 +486,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php"><a href="files/shoutz0r-app-app-console-commands-installshoutzor.html"><abbr title="Shoutz0r-app/app/Console/Commands/InstallShoutzor.php">InstallShoutzor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">128</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
@@ -493,13 +494,21 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">performInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useEnv</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">performInstall</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useEnv</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$isDev</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$useEnv</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$isDev</span>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
