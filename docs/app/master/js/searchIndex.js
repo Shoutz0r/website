@@ -1401,10 +1401,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Media.html"
         },                {
-            "fqsen": "\\App\\Media\u003A\u003Aalbums\u0028\u0029",
-            "name": "albums",
+            "fqsen": "\\App\\Media\u003A\u003Aalbum\u0028\u0029",
+            "name": "album",
             "summary": "",
-            "url": "classes/App-Media.html#method_albums"
+            "url": "classes/App-Media.html#method_album"
         },                {
             "fqsen": "\\App\\Media\u003A\u003Aartists\u0028\u0029",
             "name": "artists",
