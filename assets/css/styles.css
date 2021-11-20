@@ -1170,7 +1170,7 @@ input[type='checkbox'] {
 
 
 /**************************/
-/*     18. Statistics     */
+/*     18. Counters     */
 /**************************/
 .counter {
 	padding-top: 6.5rem;
@@ -1200,47 +1200,42 @@ input[type='checkbox'] {
 	vertical-align: middle;
 }
 
-
-/***********************/
-/*     16. Contact     */
-/***********************/
-.form {
-	padding-top: 6.25rem;
-	padding-bottom: 5.625rem;
-	background: url('../images/contact-background.jpg') center bottom no-repeat;
-	background-size: cover; 
-}
-
-.form h2 {
-	margin-bottom: 1.125rem;
+/**************************/
+/*     18. Sponsors     */
+/**************************/
+.sponsors {
+	padding-top: 6.5rem;
+	padding-bottom: 5.375rem;
+	background-color: #2f2c3d;
 	text-align: center;
 }
 
-.form .list-unstyled {
-	margin-bottom: 3.75rem;
-	font-size: 1rem;
-	line-height: 1.5rem;
-	text-align: center;
+.sponsors .cell {
+	display: inline-block;
+	width: 6.25rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
 }
 
-.form .list-unstyled .fas,
-.form .list-unstyled .fab {
-	margin-right: 0.5rem;
-	font-size: 0.875rem;
-	color: #00c9db;
+.sponsors .cell .color {
+	display: none;
 }
 
-.form .list-unstyled .fa-phone {
-	vertical-align: 3%;
+.sponsors .cell a:hover .greyscale{
+	display: none;
 }
 
+.sponsors .cell a:hover .color{
+	display: block;
+}
 
 /**********************/
 /*     16. Footer     */
 /**********************/
 .footer {
 	padding-top: 5rem;
-	background-color: #2f2c3d;
+	background-color: #262431;
 }
 
 .footer .footer-col {
@@ -1292,7 +1287,7 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
-	background-color: #2f2c3d;
+	background-color: #262431;
 	text-align: center;
 }
 
