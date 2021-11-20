@@ -1227,7 +1227,7 @@ input[type='checkbox'] {
 }
 
 .sponsors .cell a:hover .color{
-	display: block;
+	display: inline-block;
 }
 
 /**********************/
