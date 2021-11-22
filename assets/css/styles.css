@@ -1219,6 +1219,12 @@ input[type='checkbox'] {
 	margin-left: 1rem;
 }
 
+.sponsors .cell a {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
 .sponsors .cell img {
 	position: absolute;
 	top: 0;
