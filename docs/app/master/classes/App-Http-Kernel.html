@@ -60,6 +60,10 @@
 </h4>
     <ul class="phpdocumentor-list">
                     <li>
+                <a href="namespaces/app-actions.html" class="">Actions</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/app-console.html" class="">Console</a>
                 
             </li>
@@ -97,6 +101,10 @@
             </li>
                     <li>
                 <a href="namespaces/app-mediasource.html" class="">MediaSource</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/app-models.html" class="">Models</a>
                 
             </li>
                     <li>
@@ -170,9 +178,9 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Kernel.php"><a href="files/shoutz0r-app-app-http-kernel.html"><abbr title="Shoutz0r-app/app/Http/Kernel.php">Kernel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Http/Kernel.php"><a href="files/http-kernel.html"><abbr title="Http/Kernel.php">Kernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">7</span>
 
     </aside>
 
@@ -195,21 +203,21 @@
                     <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/App-Http-Kernel.html#property_middleware">$middleware</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;int, class-string|string&gt;            </span>
 </dt>
 <dd>The application&#039;s global HTTP middleware stack.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/App-Http-Kernel.html#property_middlewareGroups">$middlewareGroups</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;string, array&lt;int, class-string|string&gt;&gt;            </span>
 </dt>
 <dd>The application&#039;s route middleware groups.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/App-Http-Kernel.html#property_routeMiddleware">$routeMiddleware</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array&lt;string, class-string|string&gt;            </span>
 </dt>
 <dd>The application&#039;s route middleware.</dd>
 
@@ -239,9 +247,9 @@
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Kernel.php"><a href="files/shoutz0r-app-app-http-kernel.html"><abbr title="Shoutz0r-app/app/Http/Kernel.php">Kernel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Http/Kernel.php"><a href="files/http-kernel.html"><abbr title="Http/Kernel.php">Kernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -249,9 +257,17 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__type">array&lt;int, class-string|string&gt;</span>
     <span class="phpdocumentor-signature__name">$middleware</span>
-     = <span class="phpdocumentor-signature__default-value">[\App\Http\Middleware\TrustProxies::class, \Fruitcake\Cors\HandleCors::class, \App\Http\Middleware\CheckForMaintenanceMode::class, \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class, \App\Http\Middleware\TrimStrings::class, \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class]</span></code>
+     = <span class="phpdocumentor-signature__default-value">[
+    // \App\Http\Middleware\TrustHosts::class,
+    \App\Http\Middleware\TrustProxies::class,
+    \Illuminate\Http\Middleware\HandleCors::class,
+    \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
+    \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
+    \App\Http\Middleware\TrimStrings::class,
+    \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+]</span></code>
 
         <section class="phpdocumentor-description"><p>These middleware are run during every request to your application.</p>
 </section>
@@ -274,9 +290,9 @@
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Kernel.php"><a href="files/shoutz0r-app-app-http-kernel.html"><abbr title="Shoutz0r-app/app/Http/Kernel.php">Kernel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Http/Kernel.php"><a href="files/http-kernel.html"><abbr title="Http/Kernel.php">Kernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -284,9 +300,9 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__type">array&lt;string, array&lt;int, class-string|string&gt;&gt;</span>
     <span class="phpdocumentor-signature__name">$middlewareGroups</span>
-     = <span class="phpdocumentor-signature__default-value">[&#039;web&#039; =&gt; [\App\Http\Middleware\EncryptCookies::class, \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class, \Illuminate\Session\Middleware\StartSession::class, \Illuminate\View\Middleware\ShareErrorsFromSession::class, \App\Http\Middleware\VerifyCsrfToken::class, \Illuminate\Routing\Middleware\SubstituteBindings::class], &#039;api&#039; =&gt; [&#039;throttle:60,1&#039;, \Illuminate\Routing\Middleware\SubstituteBindings::class]]</span></code>
+     = <span class="phpdocumentor-signature__default-value">[&#039;web&#039; =&gt; [\App\Http\Middleware\EncryptCookies::class, \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class, \Illuminate\Routing\Middleware\SubstituteBindings::class], &#039;api&#039; =&gt; [\Illuminate\Routing\Middleware\SubstituteBindings::class], &#039;installer&#039; =&gt; []]</span></code>
 
     
     
@@ -307,9 +323,9 @@
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Shoutz0r-app/app/Http/Kernel.php"><a href="files/shoutz0r-app-app-http-kernel.html"><abbr title="Shoutz0r-app/app/Http/Kernel.php">Kernel.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Http/Kernel.php"><a href="files/http-kernel.html"><abbr title="Http/Kernel.php">Kernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -317,9 +333,22 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__type">array&lt;string, class-string|string&gt;</span>
     <span class="phpdocumentor-signature__name">$routeMiddleware</span>
-     = <span class="phpdocumentor-signature__default-value">[&#039;auth&#039; =&gt; \App\Http\Middleware\Authenticate::class, &#039;auth.basic&#039; =&gt; \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class, &#039;bindings&#039; =&gt; \Illuminate\Routing\Middleware\SubstituteBindings::class, &#039;cache.headers&#039; =&gt; \Illuminate\Http\Middleware\SetCacheHeaders::class, &#039;can&#039; =&gt; \App\Http\Middleware\Authorize::class, &#039;password.confirm&#039; =&gt; \Illuminate\Auth\Middleware\RequirePassword::class, &#039;signed&#039; =&gt; \Illuminate\Routing\Middleware\ValidateSignature::class, &#039;throttle&#039; =&gt; \Illuminate\Routing\Middleware\ThrottleRequests::class, &#039;verified&#039; =&gt; \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class, &#039;install.required&#039; =&gt; \App\Http\Middleware\RequireNotInstalled::class, &#039;install.finished&#039; =&gt; \App\Http\Middleware\RequireInstalled::class]</span></code>
+     = <span class="phpdocumentor-signature__default-value">[
+    &#039;auth&#039; =&gt; \App\Http\Middleware\Authenticate::class,
+    &#039;auth.basic&#039; =&gt; \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+    //&#039;auth.session&#039; =&gt; \Illuminate\Session\Middleware\AuthenticateSession::class,
+    &#039;cache.headers&#039; =&gt; \Illuminate\Http\Middleware\SetCacheHeaders::class,
+    &#039;can&#039; =&gt; \App\Http\Middleware\Authorize::class,
+    &#039;guest&#039; =&gt; \App\Http\Middleware\RedirectIfAuthenticated::class,
+    &#039;password.confirm&#039; =&gt; \Illuminate\Auth\Middleware\RequirePassword::class,
+    &#039;signed&#039; =&gt; \Illuminate\Routing\Middleware\ValidateSignature::class,
+    &#039;throttle&#039; =&gt; \Illuminate\Routing\Middleware\ThrottleRequests::class,
+    &#039;verified&#039; =&gt; \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+    &#039;install.required&#039; =&gt; \App\Http\Middleware\RequireNotInstalled::class,
+    &#039;install.finished&#039; =&gt; \App\Http\Middleware\RequireInstalled::class,
+]</span></code>
 
         <section class="phpdocumentor-description"><p>These middleware may be assigned to groups or used individually.</p>
 </section>

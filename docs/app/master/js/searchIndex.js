@@ -1,50 +1,190 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\App\\Album",
-            "name": "Album",
+            "fqsen": "\\App\\Actions\\Fortify\\CreateNewUser",
+            "name": "CreateNewUser",
             "summary": "",
-            "url": "classes/App-Album.html"
+            "url": "classes/App-Actions-Fortify-CreateNewUser.html"
         },                {
-            "fqsen": "\\App\\Album\u003A\u003Acreate\u0028\u0029",
+            "fqsen": "\\App\\Actions\\Fortify\\CreateNewUser\u003A\u003Acreate\u0028\u0029",
             "name": "create",
+            "summary": "Create\u0020a\u0020newly\u0020registered\u0020user.",
+            "url": "classes/App-Actions-Fortify-CreateNewUser.html#method_create"
+        },                {
+            "fqsen": "\\App\\Actions\\Fortify\\CreateNewUser\u003A\u003AcreateTeam\u0028\u0029",
+            "name": "createTeam",
+            "summary": "Create\u0020a\u0020personal\u0020team\u0020for\u0020the\u0020user.",
+            "url": "classes/App-Actions-Fortify-CreateNewUser.html#method_createTeam"
+        },                {
+            "fqsen": "\\App\\Actions\\Fortify\\PasswordValidationRules",
+            "name": "PasswordValidationRules",
             "summary": "",
-            "url": "classes/App-Album.html#method_create"
+            "url": "classes/App-Actions-Fortify-PasswordValidationRules.html"
         },                {
-            "fqsen": "\\App\\Album\u003A\u003Aartists\u0028\u0029",
-            "name": "artists",
+            "fqsen": "\\App\\Actions\\Fortify\\PasswordValidationRules\u003A\u003ApasswordRules\u0028\u0029",
+            "name": "passwordRules",
+            "summary": "Get\u0020the\u0020validation\u0020rules\u0020used\u0020to\u0020validate\u0020passwords.",
+            "url": "classes/App-Actions-Fortify-PasswordValidationRules.html#method_passwordRules"
+        },                {
+            "fqsen": "\\App\\Actions\\Fortify\\ResetUserPassword",
+            "name": "ResetUserPassword",
             "summary": "",
-            "url": "classes/App-Album.html#method_artists"
+            "url": "classes/App-Actions-Fortify-ResetUserPassword.html"
         },                {
-            "fqsen": "\\App\\Album\u003A\u003Amedia\u0028\u0029",
-            "name": "media",
+            "fqsen": "\\App\\Actions\\Fortify\\ResetUserPassword\u003A\u003Areset\u0028\u0029",
+            "name": "reset",
+            "summary": "Validate\u0020and\u0020reset\u0020the\u0020user\u0027s\u0020forgotten\u0020password.",
+            "url": "classes/App-Actions-Fortify-ResetUserPassword.html#method_reset"
+        },                {
+            "fqsen": "\\App\\Actions\\Fortify\\UpdateUserPassword",
+            "name": "UpdateUserPassword",
             "summary": "",
-            "url": "classes/App-Album.html#method_media"
+            "url": "classes/App-Actions-Fortify-UpdateUserPassword.html"
         },                {
-            "fqsen": "\\App\\Album\u003A\u003A\u0024timestamps",
-            "name": "timestamps",
-            "summary": "Indicates\u0020if\u0020the\u0020model\u0020should\u0020be\u0020timestamped.",
-            "url": "classes/App-Album.html#property_timestamps"
+            "fqsen": "\\App\\Actions\\Fortify\\UpdateUserPassword\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "Validate\u0020and\u0020update\u0020the\u0020user\u0027s\u0020password.",
+            "url": "classes/App-Actions-Fortify-UpdateUserPassword.html#method_update"
         },                {
-            "fqsen": "\\App\\Artist",
-            "name": "Artist",
+            "fqsen": "\\App\\Actions\\Fortify\\UpdateUserProfileInformation",
+            "name": "UpdateUserProfileInformation",
             "summary": "",
-            "url": "classes/App-Artist.html"
+            "url": "classes/App-Actions-Fortify-UpdateUserProfileInformation.html"
         },                {
-            "fqsen": "\\App\\Artist\u003A\u003Acreate\u0028\u0029",
+            "fqsen": "\\App\\Actions\\Fortify\\UpdateUserProfileInformation\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "Validate\u0020and\u0020update\u0020the\u0020given\u0020user\u0027s\u0020profile\u0020information.",
+            "url": "classes/App-Actions-Fortify-UpdateUserProfileInformation.html#method_update"
+        },                {
+            "fqsen": "\\App\\Actions\\Fortify\\UpdateUserProfileInformation\u003A\u003AupdateVerifiedUser\u0028\u0029",
+            "name": "updateVerifiedUser",
+            "summary": "Update\u0020the\u0020given\u0020verified\u0020user\u0027s\u0020profile\u0020information.",
+            "url": "classes/App-Actions-Fortify-UpdateUserProfileInformation.html#method_updateVerifiedUser"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\AddTeamMember",
+            "name": "AddTeamMember",
+            "summary": "",
+            "url": "classes/App-Actions-Jetstream-AddTeamMember.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\AddTeamMember\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "Add\u0020a\u0020new\u0020team\u0020member\u0020to\u0020the\u0020given\u0020team.",
+            "url": "classes/App-Actions-Jetstream-AddTeamMember.html#method_add"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\AddTeamMember\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "Validate\u0020the\u0020add\u0020member\u0020operation.",
+            "url": "classes/App-Actions-Jetstream-AddTeamMember.html#method_validate"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\AddTeamMember\u003A\u003Arules\u0028\u0029",
+            "name": "rules",
+            "summary": "Get\u0020the\u0020validation\u0020rules\u0020for\u0020adding\u0020a\u0020team\u0020member.",
+            "url": "classes/App-Actions-Jetstream-AddTeamMember.html#method_rules"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\AddTeamMember\u003A\u003AensureUserIsNotAlreadyOnTeam\u0028\u0029",
+            "name": "ensureUserIsNotAlreadyOnTeam",
+            "summary": "Ensure\u0020that\u0020the\u0020user\u0020is\u0020not\u0020already\u0020on\u0020the\u0020team.",
+            "url": "classes/App-Actions-Jetstream-AddTeamMember.html#method_ensureUserIsNotAlreadyOnTeam"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\CreateTeam",
+            "name": "CreateTeam",
+            "summary": "",
+            "url": "classes/App-Actions-Jetstream-CreateTeam.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\CreateTeam\u003A\u003Acreate\u0028\u0029",
             "name": "create",
-            "summary": "",
-            "url": "classes/App-Artist.html#method_create"
+            "summary": "Validate\u0020and\u0020create\u0020a\u0020new\u0020team\u0020for\u0020the\u0020given\u0020user.",
+            "url": "classes/App-Actions-Jetstream-CreateTeam.html#method_create"
         },                {
-            "fqsen": "\\App\\Artist\u003A\u003Aalbums\u0028\u0029",
-            "name": "albums",
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteTeam",
+            "name": "DeleteTeam",
             "summary": "",
-            "url": "classes/App-Artist.html#method_albums"
+            "url": "classes/App-Actions-Jetstream-DeleteTeam.html"
         },                {
-            "fqsen": "\\App\\Artist\u003A\u003Amedia\u0028\u0029",
-            "name": "media",
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteTeam\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Delete\u0020the\u0020given\u0020team.",
+            "url": "classes/App-Actions-Jetstream-DeleteTeam.html#method_delete"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteUser",
+            "name": "DeleteUser",
             "summary": "",
-            "url": "classes/App-Artist.html#method_media"
+            "url": "classes/App-Actions-Jetstream-DeleteUser.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteUser\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Create\u0020a\u0020new\u0020action\u0020instance.",
+            "url": "classes/App-Actions-Jetstream-DeleteUser.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteUser\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Delete\u0020the\u0020given\u0020user.",
+            "url": "classes/App-Actions-Jetstream-DeleteUser.html#method_delete"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteUser\u003A\u003AdeleteTeams\u0028\u0029",
+            "name": "deleteTeams",
+            "summary": "Delete\u0020the\u0020teams\u0020and\u0020team\u0020associations\u0020attached\u0020to\u0020the\u0020user.",
+            "url": "classes/App-Actions-Jetstream-DeleteUser.html#method_deleteTeams"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\DeleteUser\u003A\u003A\u0024deletesTeams",
+            "name": "deletesTeams",
+            "summary": "The\u0020team\u0020deleter\u0020implementation.",
+            "url": "classes/App-Actions-Jetstream-DeleteUser.html#property_deletesTeams"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\InviteTeamMember",
+            "name": "InviteTeamMember",
+            "summary": "",
+            "url": "classes/App-Actions-Jetstream-InviteTeamMember.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\InviteTeamMember\u003A\u003Ainvite\u0028\u0029",
+            "name": "invite",
+            "summary": "Invite\u0020a\u0020new\u0020team\u0020member\u0020to\u0020the\u0020given\u0020team.",
+            "url": "classes/App-Actions-Jetstream-InviteTeamMember.html#method_invite"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\InviteTeamMember\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "Validate\u0020the\u0020invite\u0020member\u0020operation.",
+            "url": "classes/App-Actions-Jetstream-InviteTeamMember.html#method_validate"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\InviteTeamMember\u003A\u003Arules\u0028\u0029",
+            "name": "rules",
+            "summary": "Get\u0020the\u0020validation\u0020rules\u0020for\u0020inviting\u0020a\u0020team\u0020member.",
+            "url": "classes/App-Actions-Jetstream-InviteTeamMember.html#method_rules"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\InviteTeamMember\u003A\u003AensureUserIsNotAlreadyOnTeam\u0028\u0029",
+            "name": "ensureUserIsNotAlreadyOnTeam",
+            "summary": "Ensure\u0020that\u0020the\u0020user\u0020is\u0020not\u0020already\u0020on\u0020the\u0020team.",
+            "url": "classes/App-Actions-Jetstream-InviteTeamMember.html#method_ensureUserIsNotAlreadyOnTeam"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\RemoveTeamMember",
+            "name": "RemoveTeamMember",
+            "summary": "",
+            "url": "classes/App-Actions-Jetstream-RemoveTeamMember.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\RemoveTeamMember\u003A\u003Aremove\u0028\u0029",
+            "name": "remove",
+            "summary": "Remove\u0020the\u0020team\u0020member\u0020from\u0020the\u0020given\u0020team.",
+            "url": "classes/App-Actions-Jetstream-RemoveTeamMember.html#method_remove"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\RemoveTeamMember\u003A\u003Aauthorize\u0028\u0029",
+            "name": "authorize",
+            "summary": "Authorize\u0020that\u0020the\u0020user\u0020can\u0020remove\u0020the\u0020team\u0020member.",
+            "url": "classes/App-Actions-Jetstream-RemoveTeamMember.html#method_authorize"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\RemoveTeamMember\u003A\u003AensureUserDoesNotOwnTeam\u0028\u0029",
+            "name": "ensureUserDoesNotOwnTeam",
+            "summary": "Ensure\u0020that\u0020the\u0020currently\u0020authenticated\u0020user\u0020does\u0020not\u0020own\u0020the\u0020team.",
+            "url": "classes/App-Actions-Jetstream-RemoveTeamMember.html#method_ensureUserDoesNotOwnTeam"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\UpdateTeamName",
+            "name": "UpdateTeamName",
+            "summary": "",
+            "url": "classes/App-Actions-Jetstream-UpdateTeamName.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream\\UpdateTeamName\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "Validate\u0020and\u0020update\u0020the\u0020given\u0020team\u0027s\u0020name.",
+            "url": "classes/App-Actions-Jetstream-UpdateTeamName.html#method_update"
         },                {
             "fqsen": "\\App\\Console\\Commands\\InstallShoutzor",
             "name": "InstallShoutzor",
@@ -96,10 +236,10 @@ Search.appendIndex(
             "summary": "Define\u0020the\u0020application\u0027s\u0020command\u0020schedule.",
             "url": "classes/App-Console-Kernel.html#method_schedule"
         },                {
-            "fqsen": "\\App\\Console\\Kernel\u003A\u003A\u0024commands",
+            "fqsen": "\\App\\Console\\Kernel\u003A\u003Acommands\u0028\u0029",
             "name": "commands",
-            "summary": "The\u0020Artisan\u0020commands\u0020provided\u0020by\u0020your\u0020application.",
-            "url": "classes/App-Console-Kernel.html#property_commands"
+            "summary": "Register\u0020the\u0020commands\u0020for\u0020the\u0020application.",
+            "url": "classes/App-Console-Kernel.html#method_commands"
         },                {
             "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent",
             "name": "AlbumCreateEvent",
@@ -491,6 +631,11 @@ Search.appendIndex(
             "summary": "Render\u0020an\u0020exception\u0020into\u0020an\u0020HTTP\u0020response.",
             "url": "classes/App-Exceptions-Handler.html#method_render"
         },                {
+            "fqsen": "\\App\\Exceptions\\Handler\u003A\u003A\u0024levels",
+            "name": "levels",
+            "summary": "A\u0020list\u0020of\u0020exception\u0020types\u0020with\u0020their\u0020corresponding\u0020custom\u0020log\u0020levels.",
+            "url": "classes/App-Exceptions-Handler.html#property_levels"
+        },                {
             "fqsen": "\\App\\Exceptions\\Handler\u003A\u003A\u0024dontReport",
             "name": "dontReport",
             "summary": "A\u0020list\u0020of\u0020the\u0020exception\u0020types\u0020that\u0020are\u0020not\u0020reported.",
@@ -780,6 +925,41 @@ Search.appendIndex(
             "name": "directories",
             "summary": "",
             "url": "classes/App-HealthCheck-WritableDirsHealthCheck.html#property_directories"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck",
+            "name": "WritableFilesHealthCheck",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html#method___construct"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck\u003A\u003AgetStatus\u0028\u0029",
+            "name": "getStatus",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html#method_getStatus"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck\u003A\u003AcheckHealth\u0028\u0029",
+            "name": "checkHealth",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html#method_checkHealth"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck\u003A\u003Afix\u0028\u0029",
+            "name": "fix",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html#method_fix"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck\u003A\u003A\u0024errors",
+            "name": "errors",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html#property_errors"
+        },                {
+            "fqsen": "\\App\\HealthCheck\\WritableFilesHealthCheck\u003A\u003A\u0024files",
+            "name": "files",
+            "summary": "",
+            "url": "classes/App-HealthCheck-WritableFilesHealthCheck.html#property_files"
         },                {
             "fqsen": "\\App\\Helpers\\Filesystem",
             "name": "Filesystem",
@@ -1171,16 +1351,6 @@ Search.appendIndex(
             "summary": "Since\u0020the\u0020spatie\/laravel\u002Dpermission\u0020package\u0020doesn\u0027t\u0020allow\u0020natively\u0020to\u0020assign\u0020a\u0020role\u0020to\u0020a\u0020guest\u0020user\nthis\u0020piece\u0020of\u0020middleware\u0020will\u0020intercept\u0020the\u0020request\u0020and\u0020execute\u0020the\u0020check\u0020manually.",
             "url": "classes/App-Http-Middleware-Authorize.html#method_handle"
         },                {
-            "fqsen": "\\App\\Http\\Middleware\\CheckForMaintenanceMode",
-            "name": "CheckForMaintenanceMode",
-            "summary": "",
-            "url": "classes/App-Http-Middleware-CheckForMaintenanceMode.html"
-        },                {
-            "fqsen": "\\App\\Http\\Middleware\\CheckForMaintenanceMode\u003A\u003A\u0024except",
-            "name": "except",
-            "summary": "The\u0020URIs\u0020that\u0020should\u0020be\u0020reachable\u0020while\u0020maintenance\u0020mode\u0020is\u0020enabled.",
-            "url": "classes/App-Http-Middleware-CheckForMaintenanceMode.html#property_except"
-        },                {
             "fqsen": "\\App\\Http\\Middleware\\EncryptCookies",
             "name": "EncryptCookies",
             "summary": "",
@@ -1190,6 +1360,26 @@ Search.appendIndex(
             "name": "except",
             "summary": "The\u0020names\u0020of\u0020the\u0020cookies\u0020that\u0020should\u0020not\u0020be\u0020encrypted.",
             "url": "classes/App-Http-Middleware-EncryptCookies.html#property_except"
+        },                {
+            "fqsen": "\\App\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "name": "PreventRequestsDuringMaintenance",
+            "summary": "",
+            "url": "classes/App-Http-Middleware-PreventRequestsDuringMaintenance.html"
+        },                {
+            "fqsen": "\\App\\Http\\Middleware\\PreventRequestsDuringMaintenance\u003A\u003A\u0024except",
+            "name": "except",
+            "summary": "The\u0020URIs\u0020that\u0020should\u0020be\u0020reachable\u0020while\u0020maintenance\u0020mode\u0020is\u0020enabled.",
+            "url": "classes/App-Http-Middleware-PreventRequestsDuringMaintenance.html#property_except"
+        },                {
+            "fqsen": "\\App\\Http\\Middleware\\RedirectIfAuthenticated",
+            "name": "RedirectIfAuthenticated",
+            "summary": "",
+            "url": "classes/App-Http-Middleware-RedirectIfAuthenticated.html"
+        },                {
+            "fqsen": "\\App\\Http\\Middleware\\RedirectIfAuthenticated\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "Handle\u0020an\u0020incoming\u0020request.",
+            "url": "classes/App-Http-Middleware-RedirectIfAuthenticated.html#method_handle"
         },                {
             "fqsen": "\\App\\Http\\Middleware\\RequireInstalled",
             "name": "RequireInstalled",
@@ -1220,6 +1410,16 @@ Search.appendIndex(
             "name": "except",
             "summary": "The\u0020names\u0020of\u0020the\u0020attributes\u0020that\u0020should\u0020not\u0020be\u0020trimmed.",
             "url": "classes/App-Http-Middleware-TrimStrings.html#property_except"
+        },                {
+            "fqsen": "\\App\\Http\\Middleware\\TrustHosts",
+            "name": "TrustHosts",
+            "summary": "",
+            "url": "classes/App-Http-Middleware-TrustHosts.html"
+        },                {
+            "fqsen": "\\App\\Http\\Middleware\\TrustHosts\u003A\u003Ahosts\u0028\u0029",
+            "name": "hosts",
+            "summary": "Get\u0020the\u0020host\u0020patterns\u0020that\u0020should\u0020be\u0020trusted.",
+            "url": "classes/App-Http-Middleware-TrustHosts.html#method_hosts"
         },                {
             "fqsen": "\\App\\Http\\Middleware\\TrustProxies",
             "name": "TrustProxies",
@@ -1396,41 +1596,6 @@ Search.appendIndex(
             "summary": "Handle\u0020the\u0020event.",
             "url": "classes/App-Listeners-UploadValidateMedia.html#method_handle"
         },                {
-            "fqsen": "\\App\\Media",
-            "name": "Media",
-            "summary": "",
-            "url": "classes/App-Media.html"
-        },                {
-            "fqsen": "\\App\\Media\u003A\u003Aalbum\u0028\u0029",
-            "name": "album",
-            "summary": "",
-            "url": "classes/App-Media.html#method_album"
-        },                {
-            "fqsen": "\\App\\Media\u003A\u003Aartists\u0028\u0029",
-            "name": "artists",
-            "summary": "",
-            "url": "classes/App-Media.html#method_artists"
-        },                {
-            "fqsen": "\\App\\Media\u003A\u003ASTORAGE_PATH",
-            "name": "STORAGE_PATH",
-            "summary": "",
-            "url": "classes/App-Media.html#constant_STORAGE_PATH"
-        },                {
-            "fqsen": "\\App\\Media\u003A\u003A\u0024timestamps",
-            "name": "timestamps",
-            "summary": "",
-            "url": "classes/App-Media.html#property_timestamps"
-        },                {
-            "fqsen": "\\App\\Media\u003A\u003A\u0024table",
-            "name": "table",
-            "summary": "",
-            "url": "classes/App-Media.html#property_table"
-        },                {
-            "fqsen": "\\App\\Media\u003A\u003A\u0024fillable",
-            "name": "fillable",
-            "summary": "",
-            "url": "classes/App-Media.html#property_fillable"
-        },                {
             "fqsen": "\\App\\MediaSource\\MediaSource",
             "name": "MediaSource",
             "summary": "",
@@ -1511,15 +1676,225 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-MediaSource-MediaSourceManager.html#property_source"
         },                {
-            "fqsen": "\\App\\Permission",
+            "fqsen": "\\App\\Models\\Album",
+            "name": "Album",
+            "summary": "",
+            "url": "classes/App-Models-Album.html"
+        },                {
+            "fqsen": "\\App\\Models\\Album\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/App-Models-Album.html#method_create"
+        },                {
+            "fqsen": "\\App\\Models\\Album\u003A\u003Aartists\u0028\u0029",
+            "name": "artists",
+            "summary": "",
+            "url": "classes/App-Models-Album.html#method_artists"
+        },                {
+            "fqsen": "\\App\\Models\\Album\u003A\u003Amedia\u0028\u0029",
+            "name": "media",
+            "summary": "",
+            "url": "classes/App-Models-Album.html#method_media"
+        },                {
+            "fqsen": "\\App\\Models\\Album\u003A\u003A\u0024timestamps",
+            "name": "timestamps",
+            "summary": "Indicates\u0020if\u0020the\u0020model\u0020should\u0020be\u0020timestamped.",
+            "url": "classes/App-Models-Album.html#property_timestamps"
+        },                {
+            "fqsen": "\\App\\Models\\Artist",
+            "name": "Artist",
+            "summary": "",
+            "url": "classes/App-Models-Artist.html"
+        },                {
+            "fqsen": "\\App\\Models\\Artist\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/App-Models-Artist.html#method_create"
+        },                {
+            "fqsen": "\\App\\Models\\Artist\u003A\u003Aalbums\u0028\u0029",
+            "name": "albums",
+            "summary": "",
+            "url": "classes/App-Models-Artist.html#method_albums"
+        },                {
+            "fqsen": "\\App\\Models\\Artist\u003A\u003Amedia\u0028\u0029",
+            "name": "media",
+            "summary": "",
+            "url": "classes/App-Models-Artist.html#method_media"
+        },                {
+            "fqsen": "\\App\\Models\\Media",
+            "name": "Media",
+            "summary": "",
+            "url": "classes/App-Models-Media.html"
+        },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003Aalbum\u0028\u0029",
+            "name": "album",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#method_album"
+        },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003Aartists\u0028\u0029",
+            "name": "artists",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#method_artists"
+        },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003ASTORAGE_PATH",
+            "name": "STORAGE_PATH",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#constant_STORAGE_PATH"
+        },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003A\u0024timestamps",
+            "name": "timestamps",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#property_timestamps"
+        },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003A\u0024table",
+            "name": "table",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#property_table"
+        },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003A\u0024fillable",
+            "name": "fillable",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#property_fillable"
+        },                {
+            "fqsen": "\\App\\Models\\Permission",
             "name": "Permission",
             "summary": "",
-            "url": "classes/App-Permission.html"
+            "url": "classes/App-Models-Permission.html"
         },                {
-            "fqsen": "\\App\\Permission\u003A\u003A\u0024hidden",
+            "fqsen": "\\App\\Models\\Permission\u003A\u003A\u0024hidden",
             "name": "hidden",
             "summary": "",
-            "url": "classes/App-Permission.html#property_hidden"
+            "url": "classes/App-Models-Permission.html#property_hidden"
+        },                {
+            "fqsen": "\\App\\Models\\Request",
+            "name": "Request",
+            "summary": "",
+            "url": "classes/App-Models-Request.html"
+        },                {
+            "fqsen": "\\App\\Models\\Request\u003A\u003Amedia\u0028\u0029",
+            "name": "media",
+            "summary": "",
+            "url": "classes/App-Models-Request.html#method_media"
+        },                {
+            "fqsen": "\\App\\Models\\Request\u003A\u003Ausers\u0028\u0029",
+            "name": "users",
+            "summary": "",
+            "url": "classes/App-Models-Request.html#method_users"
+        },                {
+            "fqsen": "\\App\\Models\\Request\u003A\u003ACREATED_AT",
+            "name": "CREATED_AT",
+            "summary": "",
+            "url": "classes/App-Models-Request.html#constant_CREATED_AT"
+        },                {
+            "fqsen": "\\App\\Models\\Request\u003A\u003AUPDATED_AT",
+            "name": "UPDATED_AT",
+            "summary": "",
+            "url": "classes/App-Models-Request.html#constant_UPDATED_AT"
+        },                {
+            "fqsen": "\\App\\Models\\Role",
+            "name": "Role",
+            "summary": "",
+            "url": "classes/App-Models-Role.html"
+        },                {
+            "fqsen": "\\App\\Models\\Role\u003A\u003A\u0024hidden",
+            "name": "hidden",
+            "summary": "",
+            "url": "classes/App-Models-Role.html#property_hidden"
+        },                {
+            "fqsen": "\\App\\Models\\Upload",
+            "name": "Upload",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003Auser\u0028\u0029",
+            "name": "user",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#method_user"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003ASTATUS_QUEUED",
+            "name": "STATUS_QUEUED",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_STATUS_QUEUED"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003ASTATUS_PROCESSING",
+            "name": "STATUS_PROCESSING",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_STATUS_PROCESSING"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003ASTATUS_FAILED_RETRY",
+            "name": "STATUS_FAILED_RETRY",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_STATUS_FAILED_RETRY"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003ASTATUS_FAILED_FINAL",
+            "name": "STATUS_FAILED_FINAL",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_STATUS_FAILED_FINAL"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003AQUEUE_NAME",
+            "name": "QUEUE_NAME",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_QUEUE_NAME"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003ASTORAGE_PATH",
+            "name": "STORAGE_PATH",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_STORAGE_PATH"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003A\u0024timestamps",
+            "name": "timestamps",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#property_timestamps"
+        },                {
+            "fqsen": "\\App\\Models\\User",
+            "name": "User",
+            "summary": "",
+            "url": "classes/App-Models-User.html"
+        },                {
+            "fqsen": "\\App\\Models\\User\u003A\u003Auploads\u0028\u0029",
+            "name": "uploads",
+            "summary": "",
+            "url": "classes/App-Models-User.html#method_uploads"
+        },                {
+            "fqsen": "\\App\\Models\\User\u003A\u003A\u0024fillable",
+            "name": "fillable",
+            "summary": "The\u0020attributes\u0020that\u0020are\u0020mass\u0020assignable.",
+            "url": "classes/App-Models-User.html#property_fillable"
+        },                {
+            "fqsen": "\\App\\Models\\User\u003A\u003A\u0024hidden",
+            "name": "hidden",
+            "summary": "The\u0020attributes\u0020that\u0020should\u0020be\u0020hidden\u0020for\u0020arrays.",
+            "url": "classes/App-Models-User.html#property_hidden"
+        },                {
+            "fqsen": "\\App\\Models\\User\u003A\u003A\u0024casts",
+            "name": "casts",
+            "summary": "The\u0020attributes\u0020that\u0020should\u0020be\u0020cast\u0020to\u0020native\u0020types.",
+            "url": "classes/App-Models-User.html#property_casts"
+        },                {
+            "fqsen": "\\App\\Models\\Vote",
+            "name": "Vote",
+            "summary": "",
+            "url": "classes/App-Models-Vote.html"
+        },                {
+            "fqsen": "\\App\\Models\\Vote\u003A\u003Amedia\u0028\u0029",
+            "name": "media",
+            "summary": "",
+            "url": "classes/App-Models-Vote.html#method_media"
+        },                {
+            "fqsen": "\\App\\Models\\Vote\u003A\u003Auser\u0028\u0029",
+            "name": "user",
+            "summary": "",
+            "url": "classes/App-Models-Vote.html#method_user"
+        },                {
+            "fqsen": "\\App\\Models\\Vote\u003A\u003A\u0024incrementing",
+            "name": "incrementing",
+            "summary": "",
+            "url": "classes/App-Models-Vote.html#property_incrementing"
+        },                {
+            "fqsen": "\\App\\Models\\Vote\u003A\u003A\u0024timestamps",
+            "name": "timestamps",
+            "summary": "",
+            "url": "classes/App-Models-Vote.html#property_timestamps"
         },                {
             "fqsen": "\\App\\Processors\\UploadProcessor",
             "name": "UploadProcessor",
@@ -1606,21 +1981,6 @@ Search.appendIndex(
             "summary": "The\u0020policy\u0020mappings\u0020for\u0020the\u0020application.",
             "url": "classes/App-Providers-AuthServiceProvider.html#property_policies"
         },                {
-            "fqsen": "\\App\\Providers\\BroadcastEventServiceProvider",
-            "name": "BroadcastEventServiceProvider",
-            "summary": "",
-            "url": "classes/App-Providers-BroadcastEventServiceProvider.html"
-        },                {
-            "fqsen": "\\App\\Providers\\BroadcastEventServiceProvider\u003A\u003Aboot\u0028\u0029",
-            "name": "boot",
-            "summary": "Register\u0020any\u0020events\u0020for\u0020your\u0020application.",
-            "url": "classes/App-Providers-BroadcastEventServiceProvider.html#method_boot"
-        },                {
-            "fqsen": "\\App\\Providers\\BroadcastEventServiceProvider\u003A\u003A\u0024listen",
-            "name": "listen",
-            "summary": "The\u0020event\u0020listener\u0020mappings\u0020for\u0020the\u0020application.",
-            "url": "classes/App-Providers-BroadcastEventServiceProvider.html#property_listen"
-        },                {
             "fqsen": "\\App\\Providers\\BroadcastServiceProvider",
             "name": "BroadcastServiceProvider",
             "summary": "",
@@ -1631,25 +1991,25 @@ Search.appendIndex(
             "summary": "Bootstrap\u0020any\u0020application\u0020services.",
             "url": "classes/App-Providers-BroadcastServiceProvider.html#method_boot"
         },                {
-            "fqsen": "\\App\\Providers\\InternalEventServiceProvider",
-            "name": "InternalEventServiceProvider",
+            "fqsen": "\\App\\Providers\\EventServiceProvider",
+            "name": "EventServiceProvider",
             "summary": "",
-            "url": "classes/App-Providers-InternalEventServiceProvider.html"
+            "url": "classes/App-Providers-EventServiceProvider.html"
         },                {
-            "fqsen": "\\App\\Providers\\InternalEventServiceProvider\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "Register\u0020any\u0020application\u0020services.",
-            "url": "classes/App-Providers-InternalEventServiceProvider.html#method_register"
-        },                {
-            "fqsen": "\\App\\Providers\\InternalEventServiceProvider\u003A\u003Aboot\u0028\u0029",
+            "fqsen": "\\App\\Providers\\EventServiceProvider\u003A\u003Aboot\u0028\u0029",
             "name": "boot",
-            "summary": "Bootstrap\u0020any\u0020application\u0020services.",
-            "url": "classes/App-Providers-InternalEventServiceProvider.html#method_boot"
+            "summary": "Register\u0020any\u0020events\u0020for\u0020your\u0020application.",
+            "url": "classes/App-Providers-EventServiceProvider.html#method_boot"
         },                {
-            "fqsen": "\\App\\Providers\\InternalEventServiceProvider\u003A\u003A\u0024dispatcher",
-            "name": "dispatcher",
-            "summary": "",
-            "url": "classes/App-Providers-InternalEventServiceProvider.html#property_dispatcher"
+            "fqsen": "\\App\\Providers\\EventServiceProvider\u003A\u003AshouldDiscoverEvents\u0028\u0029",
+            "name": "shouldDiscoverEvents",
+            "summary": "Determine\u0020if\u0020events\u0020and\u0020listeners\u0020should\u0020be\u0020automatically\u0020discovered.",
+            "url": "classes/App-Providers-EventServiceProvider.html#method_shouldDiscoverEvents"
+        },                {
+            "fqsen": "\\App\\Providers\\EventServiceProvider\u003A\u003A\u0024listen",
+            "name": "listen",
+            "summary": "The\u0020event\u0020listener\u0020mappings\u0020for\u0020the\u0020application.",
+            "url": "classes/App-Providers-EventServiceProvider.html#property_listen"
         },                {
             "fqsen": "\\App\\Providers\\RouteServiceProvider",
             "name": "RouteServiceProvider",
@@ -1661,29 +2021,14 @@ Search.appendIndex(
             "summary": "Define\u0020your\u0020route\u0020model\u0020bindings,\u0020pattern\u0020filters,\u0020etc.",
             "url": "classes/App-Providers-RouteServiceProvider.html#method_boot"
         },                {
-            "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003Amap\u0028\u0029",
-            "name": "map",
-            "summary": "Define\u0020the\u0020routes\u0020for\u0020the\u0020application.",
-            "url": "classes/App-Providers-RouteServiceProvider.html#method_map"
-        },                {
-            "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AmapApiRoutes\u0028\u0029",
-            "name": "mapApiRoutes",
-            "summary": "Define\u0020the\u0020\u0022api\u0022\u0020routes\u0020for\u0020the\u0020application.",
-            "url": "classes/App-Providers-RouteServiceProvider.html#method_mapApiRoutes"
-        },                {
-            "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AmapWebRoutes\u0028\u0029",
-            "name": "mapWebRoutes",
-            "summary": "Define\u0020the\u0020\u0022web\u0022\u0020routes\u0020for\u0020the\u0020application.",
-            "url": "classes/App-Providers-RouteServiceProvider.html#method_mapWebRoutes"
-        },                {
-            "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AmapInstallerRoutes\u0028\u0029",
-            "name": "mapInstallerRoutes",
-            "summary": "Define\u0020the\u0020\u0022api\u0022\u0020routes\u0020for\u0020the\u0020application.",
-            "url": "classes/App-Providers-RouteServiceProvider.html#method_mapInstallerRoutes"
+            "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AconfigureRateLimiting\u0028\u0029",
+            "name": "configureRateLimiting",
+            "summary": "Configure\u0020the\u0020rate\u0020limiters\u0020for\u0020the\u0020application.",
+            "url": "classes/App-Providers-RouteServiceProvider.html#method_configureRateLimiting"
         },                {
             "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AHOME",
             "name": "HOME",
-            "summary": "The\u0020path\u0020to\u0020the\u0020\u0022home\u0022\u0020route",
+            "summary": "The\u0020path\u0020to\u0020the\u0020\u0022home\u0022\u0020route\u0020for\u0020your\u0020application.",
             "url": "classes/App-Providers-RouteServiceProvider.html#constant_HOME"
         },                {
             "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AINSTALLER",
@@ -1695,41 +2040,6 @@ Search.appendIndex(
             "name": "namespace",
             "summary": "This\u0020namespace\u0020is\u0020applied\u0020to\u0020your\u0020controller\u0020routes.",
             "url": "classes/App-Providers-RouteServiceProvider.html#property_namespace"
-        },                {
-            "fqsen": "\\App\\Request",
-            "name": "Request",
-            "summary": "",
-            "url": "classes/App-Request.html"
-        },                {
-            "fqsen": "\\App\\Request\u003A\u003Amedia\u0028\u0029",
-            "name": "media",
-            "summary": "",
-            "url": "classes/App-Request.html#method_media"
-        },                {
-            "fqsen": "\\App\\Request\u003A\u003Ausers\u0028\u0029",
-            "name": "users",
-            "summary": "",
-            "url": "classes/App-Request.html#method_users"
-        },                {
-            "fqsen": "\\App\\Request\u003A\u003ACREATED_AT",
-            "name": "CREATED_AT",
-            "summary": "",
-            "url": "classes/App-Request.html#constant_CREATED_AT"
-        },                {
-            "fqsen": "\\App\\Request\u003A\u003AUPDATED_AT",
-            "name": "UPDATED_AT",
-            "summary": "",
-            "url": "classes/App-Request.html#constant_UPDATED_AT"
-        },                {
-            "fqsen": "\\App\\Role",
-            "name": "Role",
-            "summary": "",
-            "url": "classes/App-Role.html"
-        },                {
-            "fqsen": "\\App\\Role\u003A\u003A\u0024hidden",
-            "name": "hidden",
-            "summary": "",
-            "url": "classes/App-Role.html#property_hidden"
         },                {
             "fqsen": "\\App\\Traits\\UsesUUID",
             "name": "UsesUUID",
@@ -1751,110 +2061,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Traits-UsesUUID.html#method_getKeyType"
         },                {
-            "fqsen": "\\App\\Upload",
-            "name": "Upload",
-            "summary": "",
-            "url": "classes/App-Upload.html"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003Auser\u0028\u0029",
-            "name": "user",
-            "summary": "",
-            "url": "classes/App-Upload.html#method_user"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003ASTATUS_QUEUED",
-            "name": "STATUS_QUEUED",
-            "summary": "",
-            "url": "classes/App-Upload.html#constant_STATUS_QUEUED"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003ASTATUS_PROCESSING",
-            "name": "STATUS_PROCESSING",
-            "summary": "",
-            "url": "classes/App-Upload.html#constant_STATUS_PROCESSING"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003ASTATUS_FAILED_RETRY",
-            "name": "STATUS_FAILED_RETRY",
-            "summary": "",
-            "url": "classes/App-Upload.html#constant_STATUS_FAILED_RETRY"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003ASTATUS_FAILED_FINAL",
-            "name": "STATUS_FAILED_FINAL",
-            "summary": "",
-            "url": "classes/App-Upload.html#constant_STATUS_FAILED_FINAL"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003AQUEUE_NAME",
-            "name": "QUEUE_NAME",
-            "summary": "",
-            "url": "classes/App-Upload.html#constant_QUEUE_NAME"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003ASTORAGE_PATH",
-            "name": "STORAGE_PATH",
-            "summary": "",
-            "url": "classes/App-Upload.html#constant_STORAGE_PATH"
-        },                {
-            "fqsen": "\\App\\Upload\u003A\u003A\u0024timestamps",
-            "name": "timestamps",
-            "summary": "",
-            "url": "classes/App-Upload.html#property_timestamps"
-        },                {
-            "fqsen": "\\App\\User",
-            "name": "User",
-            "summary": "",
-            "url": "classes/App-User.html"
-        },                {
-            "fqsen": "\\App\\User\u003A\u003Auploads\u0028\u0029",
-            "name": "uploads",
-            "summary": "",
-            "url": "classes/App-User.html#method_uploads"
-        },                {
-            "fqsen": "\\App\\User\u003A\u003A\u0024fillable",
-            "name": "fillable",
-            "summary": "The\u0020attributes\u0020that\u0020are\u0020mass\u0020assignable.",
-            "url": "classes/App-User.html#property_fillable"
-        },                {
-            "fqsen": "\\App\\User\u003A\u003A\u0024hidden",
-            "name": "hidden",
-            "summary": "The\u0020attributes\u0020that\u0020should\u0020be\u0020hidden\u0020for\u0020arrays.",
-            "url": "classes/App-User.html#property_hidden"
-        },                {
-            "fqsen": "\\App\\User\u003A\u003A\u0024casts",
-            "name": "casts",
-            "summary": "The\u0020attributes\u0020that\u0020should\u0020be\u0020cast\u0020to\u0020native\u0020types.",
-            "url": "classes/App-User.html#property_casts"
-        },                {
-            "fqsen": "\\App\\Vote",
-            "name": "Vote",
-            "summary": "",
-            "url": "classes/App-Vote.html"
-        },                {
-            "fqsen": "\\App\\Vote\u003A\u003Amedia\u0028\u0029",
-            "name": "media",
-            "summary": "",
-            "url": "classes/App-Vote.html#method_media"
-        },                {
-            "fqsen": "\\App\\Vote\u003A\u003Auser\u0028\u0029",
-            "name": "user",
-            "summary": "",
-            "url": "classes/App-Vote.html#method_user"
-        },                {
-            "fqsen": "\\App\\Vote\u003A\u003A\u0024incrementing",
-            "name": "incrementing",
-            "summary": "",
-            "url": "classes/App-Vote.html#property_incrementing"
-        },                {
-            "fqsen": "\\App\\Vote\u003A\u003A\u0024timestamps",
-            "name": "timestamps",
-            "summary": "",
-            "url": "classes/App-Vote.html#property_timestamps"
-        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
             "url": "namespaces/default.html"
         },                {
+            "fqsen": "\\App\\Actions\\Fortify",
+            "name": "Fortify",
+            "summary": "",
+            "url": "namespaces/app-actions-fortify.html"
+        },                {
+            "fqsen": "\\App\\Actions",
+            "name": "Actions",
+            "summary": "",
+            "url": "namespaces/app-actions.html"
+        },                {
             "fqsen": "\\App",
             "name": "App",
             "summary": "",
             "url": "namespaces/app.html"
+        },                {
+            "fqsen": "\\App\\Actions\\Jetstream",
+            "name": "Jetstream",
+            "summary": "",
+            "url": "namespaces/app-actions-jetstream.html"
         },                {
             "fqsen": "\\App\\Console\\Commands",
             "name": "Commands",
@@ -1940,6 +2170,11 @@ Search.appendIndex(
             "name": "MediaSource",
             "summary": "",
             "url": "namespaces/app-mediasource.html"
+        },                {
+            "fqsen": "\\App\\Models",
+            "name": "Models",
+            "summary": "",
+            "url": "namespaces/app-models.html"
         },                {
             "fqsen": "\\App\\Processors",
             "name": "Processors",
