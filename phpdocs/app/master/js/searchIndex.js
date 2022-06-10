@@ -1256,41 +1256,6 @@ Search.appendIndex(
             "summary": "Show\u0020the\u0020application\u0020dashboard.",
             "url": "classes/App-Http-Controllers-HomeController.html#method_index"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController",
-            "name": "InstallerSetupController",
-            "summary": "Handles\u0020the\u0020API\u002Dcalls\u0020from\u0020the\u0020Graphical\u0020Installer",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AgetSetupSteps\u0028\u0029",
-            "name": "getSetupSteps",
-            "summary": "Returns\u0020the\u0020steps\u0020for\u0020the\u0020installation",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getSetupSteps"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AgetDatabaseFields\u0028\u0029",
-            "name": "getDatabaseFields",
-            "summary": "Returns\u0020the\u0020valid\u0020Database\u0020fields",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_getDatabaseFields"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AconfigureDatabaseSettings\u0028\u0029",
-            "name": "configureDatabaseSettings",
-            "summary": "Configures\u0020the\u0020database",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_configureDatabaseSettings"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003AinstallStep\u0028\u0029",
-            "name": "installStep",
-            "summary": "Dynamically\u0020call\u0020the\u0020method\u0020from\u0020the\u0020Installer\u0020that\u0020belongs\u0020to\u0020the\u0020API\u0020slug",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#method_installStep"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer\\InstallerSetupController\u003A\u003A\u0024installer",
-            "name": "installer",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Installer-InstallerSetupController.html#property_installer"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\UpdateController",
             "name": "UpdateController",
             "summary": "",
@@ -1390,16 +1355,6 @@ Search.appendIndex(
             "name": "handle",
             "summary": "",
             "url": "classes/App-Http-Middleware-RequireInstalled.html#method_handle"
-        },                {
-            "fqsen": "\\App\\Http\\Middleware\\RequireNotInstalled",
-            "name": "RequireNotInstalled",
-            "summary": "",
-            "url": "classes/App-Http-Middleware-RequireNotInstalled.html"
-        },                {
-            "fqsen": "\\App\\Http\\Middleware\\RequireNotInstalled\u003A\u003Ahandle\u0028\u0029",
-            "name": "handle",
-            "summary": "",
-            "url": "classes/App-Http-Middleware-RequireNotInstalled.html#method_handle"
         },                {
             "fqsen": "\\App\\Http\\Middleware\\TrimStrings",
             "name": "TrimStrings",
@@ -2031,11 +1986,6 @@ Search.appendIndex(
             "summary": "The\u0020path\u0020to\u0020the\u0020\u0022home\u0022\u0020route\u0020for\u0020your\u0020application.",
             "url": "classes/App-Providers-RouteServiceProvider.html#constant_HOME"
         },                {
-            "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003AINSTALLER",
-            "name": "INSTALLER",
-            "summary": "The\u0020path\u0020to\u0020the\u0020\u0022installer\u0022\u0020route",
-            "url": "classes/App-Providers-RouteServiceProvider.html#constant_INSTALLER"
-        },                {
             "fqsen": "\\App\\Providers\\RouteServiceProvider\u003A\u003A\u0024namespace",
             "name": "namespace",
             "summary": "This\u0020namespace\u0020is\u0020applied\u0020to\u0020your\u0020controller\u0020routes.",
@@ -2135,11 +2085,6 @@ Search.appendIndex(
             "name": "Controllers",
             "summary": "",
             "url": "namespaces/app-http-controllers.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Installer",
-            "name": "Installer",
-            "summary": "",
-            "url": "namespaces/app-http-controllers-installer.html"
         },                {
             "fqsen": "\\App\\Http",
             "name": "Http",
