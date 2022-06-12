@@ -1731,10 +1731,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Request.html#method_media"
         },                {
-            "fqsen": "\\App\\Models\\Request\u003A\u003Ausers\u0028\u0029",
-            "name": "users",
+            "fqsen": "\\App\\Models\\Request\u003A\u003Arequested_by\u0028\u0029",
+            "name": "requested_by",
             "summary": "",
-            "url": "classes/App-Models-Request.html#method_users"
+            "url": "classes/App-Models-Request.html#method_requested_by"
+        },                {
+            "fqsen": "\\App\\Models\\Request\u003A\u003Avotes\u0028\u0029",
+            "name": "votes",
+            "summary": "",
+            "url": "classes/App-Models-Request.html#method_votes"
         },                {
             "fqsen": "\\App\\Models\\Request\u003A\u003ACREATED_AT",
             "name": "CREATED_AT",
@@ -1831,25 +1836,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Vote.html"
         },                {
-            "fqsen": "\\App\\Models\\Vote\u003A\u003Amedia\u0028\u0029",
-            "name": "media",
+            "fqsen": "\\App\\Models\\Vote\u003A\u003Arequest\u0028\u0029",
+            "name": "request",
             "summary": "",
-            "url": "classes/App-Models-Vote.html#method_media"
+            "url": "classes/App-Models-Vote.html#method_request"
         },                {
             "fqsen": "\\App\\Models\\Vote\u003A\u003Auser\u0028\u0029",
             "name": "user",
             "summary": "",
             "url": "classes/App-Models-Vote.html#method_user"
         },                {
-            "fqsen": "\\App\\Models\\Vote\u003A\u003A\u0024incrementing",
-            "name": "incrementing",
-            "summary": "",
-            "url": "classes/App-Models-Vote.html#property_incrementing"
-        },                {
             "fqsen": "\\App\\Models\\Vote\u003A\u003A\u0024timestamps",
             "name": "timestamps",
             "summary": "",
             "url": "classes/App-Models-Vote.html#property_timestamps"
+        },                {
+            "fqsen": "\\App\\Models\\Vote\u003A\u003A\u0024fillable",
+            "name": "fillable",
+            "summary": "",
+            "url": "classes/App-Models-Vote.html#property_fillable"
         },                {
             "fqsen": "\\App\\Processors\\UploadProcessor",
             "name": "UploadProcessor",
