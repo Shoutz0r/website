@@ -76,6 +76,10 @@
                 
             </li>
                     <li>
+                <a href="namespaces/app-graphql.html" class="">GraphQL</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/app-healthcheck.html" class="">HealthCheck</a>
                 
             </li>
@@ -303,7 +307,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type">array&lt;string, array&lt;int, class-string|string&gt;&gt;</span>
     <span class="phpdocumentor-signature__name">$middlewareGroups</span>
-     = <span class="phpdocumentor-signature__default-value">[&#039;web&#039; =&gt; [\App\Http\Middleware\EncryptCookies::class, \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class, \Illuminate\Routing\Middleware\SubstituteBindings::class], &#039;api&#039; =&gt; [\Illuminate\Routing\Middleware\SubstituteBindings::class], &#039;installer&#039; =&gt; []]</span></code>
+     = <span class="phpdocumentor-signature__default-value">[&#039;web&#039; =&gt; [\App\Http\Middleware\EncryptCookies::class, \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class, \Illuminate\Routing\Middleware\SubstituteBindings::class], &#039;api&#039; =&gt; [\Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class, &#039;throttle:api&#039;, \Illuminate\Routing\Middleware\SubstituteBindings::class]]</span></code>
 
     
     
@@ -326,7 +330,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Http/Kernel.php"><a href="files/http-kernel.html"><abbr title="Http/Kernel.php">Kernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 

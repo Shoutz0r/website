@@ -666,6 +666,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Exceptions-UploadFailedRetryException.html#method___construct"
         },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Login",
+            "name": "Login",
+            "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
+            "url": "classes/App-GraphQL-Mutations-Login.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Login\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-Login.html#method___invoke"
+        },                {
             "fqsen": "\\App\\HealthCheck\\BaseHealthCheck",
             "name": "BaseHealthCheck",
             "summary": "",
@@ -1011,31 +1021,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Http-Controllers-Api-ArtistApiController.html#method_get"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AuthApiController",
-            "name": "AuthApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-AuthApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AuthApiController\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "Create\u0020user",
-            "url": "classes/App-Http-Controllers-Api-AuthApiController.html#method_register"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AuthApiController\u003A\u003Alogin\u0028\u0029",
-            "name": "login",
-            "summary": "Login\u0020user\u0020and\u0020create\u0020token",
-            "url": "classes/App-Http-Controllers-Api-AuthApiController.html#method_login"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AuthApiController\u003A\u003Alogout\u0028\u0029",
-            "name": "logout",
-            "summary": "Logout\u0020user\u0020\u0028Revoke\u0020the\u0020token\u0029",
-            "url": "classes/App-Http-Controllers-Api-AuthApiController.html#method_logout"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AuthApiController\u003A\u003Auser\u0028\u0029",
-            "name": "user",
-            "summary": "Get\u0020the\u0020authenticated\u0020User",
-            "url": "classes/App-Http-Controllers-Api-AuthApiController.html#method_user"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\Api\\DashboardApiController",
             "name": "DashboardApiController",
             "summary": "",
@@ -1140,101 +1125,6 @@ Search.appendIndex(
             "name": "count",
             "summary": "",
             "url": "classes/App-Http-Controllers-Api-VoteApiController.html#method_count"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\ConfirmPasswordController",
-            "name": "ConfirmPasswordController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Auth-ConfirmPasswordController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\ConfirmPasswordController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020controller\u0020instance.",
-            "url": "classes/App-Http-Controllers-Auth-ConfirmPasswordController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\ConfirmPasswordController\u003A\u003A\u0024redirectTo",
-            "name": "redirectTo",
-            "summary": "Where\u0020to\u0020redirect\u0020users\u0020when\u0020the\u0020intended\u0020url\u0020fails.",
-            "url": "classes/App-Http-Controllers-Auth-ConfirmPasswordController.html#property_redirectTo"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\ForgotPasswordController",
-            "name": "ForgotPasswordController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Auth-ForgotPasswordController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\LoginController",
-            "name": "LoginController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Auth-LoginController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\LoginController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020controller\u0020instance.",
-            "url": "classes/App-Http-Controllers-Auth-LoginController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\LoginController\u003A\u003AfindUsername\u0028\u0029",
-            "name": "findUsername",
-            "summary": "Get\u0020the\u0020login\u0020username\u0020to\u0020be\u0020used\u0020by\u0020the\u0020controller.",
-            "url": "classes/App-Http-Controllers-Auth-LoginController.html#method_findUsername"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\LoginController\u003A\u003Ausername\u0028\u0029",
-            "name": "username",
-            "summary": "Get\u0020username\u0020property.",
-            "url": "classes/App-Http-Controllers-Auth-LoginController.html#method_username"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\LoginController\u003A\u003A\u0024redirectTo",
-            "name": "redirectTo",
-            "summary": "Where\u0020to\u0020redirect\u0020users\u0020after\u0020login.",
-            "url": "classes/App-Http-Controllers-Auth-LoginController.html#property_redirectTo"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\RegisterController",
-            "name": "RegisterController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Auth-RegisterController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\RegisterController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020controller\u0020instance.",
-            "url": "classes/App-Http-Controllers-Auth-RegisterController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\RegisterController\u003A\u003Avalidator\u0028\u0029",
-            "name": "validator",
-            "summary": "Get\u0020a\u0020validator\u0020for\u0020an\u0020incoming\u0020registration\u0020request.",
-            "url": "classes/App-Http-Controllers-Auth-RegisterController.html#method_validator"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\RegisterController\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "Create\u0020a\u0020new\u0020user\u0020instance\u0020after\u0020a\u0020valid\u0020registration.",
-            "url": "classes/App-Http-Controllers-Auth-RegisterController.html#method_create"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\RegisterController\u003A\u003A\u0024redirectTo",
-            "name": "redirectTo",
-            "summary": "Where\u0020to\u0020redirect\u0020users\u0020after\u0020registration.",
-            "url": "classes/App-Http-Controllers-Auth-RegisterController.html#property_redirectTo"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\ResetPasswordController",
-            "name": "ResetPasswordController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Auth-ResetPasswordController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\ResetPasswordController\u003A\u003A\u0024redirectTo",
-            "name": "redirectTo",
-            "summary": "Where\u0020to\u0020redirect\u0020users\u0020after\u0020resetting\u0020their\u0020password.",
-            "url": "classes/App-Http-Controllers-Auth-ResetPasswordController.html#property_redirectTo"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\VerificationController",
-            "name": "VerificationController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Auth-VerificationController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\VerificationController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020controller\u0020instance.",
-            "url": "classes/App-Http-Controllers-Auth-VerificationController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth\\VerificationController\u003A\u003A\u0024redirectTo",
-            "name": "redirectTo",
-            "summary": "Where\u0020to\u0020redirect\u0020users\u0020after\u0020verification.",
-            "url": "classes/App-Http-Controllers-Auth-VerificationController.html#property_redirectTo"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Controller",
             "name": "Controller",
@@ -1425,11 +1315,6 @@ Search.appendIndex(
             "name": "migrateDatabase",
             "summary": "Executes\u0020the\u0020artisan\u0020migrate\u0020command",
             "url": "classes/App-Installer-Installer.html#method_migrateDatabase"
-        },                {
-            "fqsen": "\\App\\Installer\\Installer\u003A\u003AinstallPassport\u0028\u0029",
-            "name": "installPassport",
-            "summary": "Executes\u0020the\u0020artisan\u0020passport\u003Ainstall\u0020command",
-            "url": "classes/App-Installer-Installer.html#method_installPassport"
         },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003AseedDatabase\u0028\u0029",
             "name": "seedDatabase",
@@ -1971,6 +1856,21 @@ Search.appendIndex(
             "summary": "The\u0020event\u0020listener\u0020mappings\u0020for\u0020the\u0020application.",
             "url": "classes/App-Providers-EventServiceProvider.html#property_listen"
         },                {
+            "fqsen": "\\App\\Providers\\FortifyServiceProvider",
+            "name": "FortifyServiceProvider",
+            "summary": "",
+            "url": "classes/App-Providers-FortifyServiceProvider.html"
+        },                {
+            "fqsen": "\\App\\Providers\\FortifyServiceProvider\u003A\u003Aregister\u0028\u0029",
+            "name": "register",
+            "summary": "Register\u0020any\u0020application\u0020services.",
+            "url": "classes/App-Providers-FortifyServiceProvider.html#method_register"
+        },                {
+            "fqsen": "\\App\\Providers\\FortifyServiceProvider\u003A\u003Aboot\u0028\u0029",
+            "name": "boot",
+            "summary": "Bootstrap\u0020any\u0020application\u0020services.",
+            "url": "classes/App-Providers-FortifyServiceProvider.html#method_boot"
+        },                {
             "fqsen": "\\App\\Providers\\RouteServiceProvider",
             "name": "RouteServiceProvider",
             "summary": "",
@@ -2066,6 +1966,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/app-exceptions.html"
         },                {
+            "fqsen": "\\App\\GraphQL\\Mutations",
+            "name": "Mutations",
+            "summary": "",
+            "url": "namespaces/app-graphql-mutations.html"
+        },                {
+            "fqsen": "\\App\\GraphQL",
+            "name": "GraphQL",
+            "summary": "",
+            "url": "namespaces/app-graphql.html"
+        },                {
             "fqsen": "\\App\\HealthCheck",
             "name": "HealthCheck",
             "summary": "",
@@ -2080,11 +1990,6 @@ Search.appendIndex(
             "name": "Api",
             "summary": "",
             "url": "namespaces/app-http-controllers-api.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Auth",
-            "name": "Auth",
-            "summary": "",
-            "url": "namespaces/app-http-controllers-auth.html"
         },                {
             "fqsen": "\\App\\Http\\Controllers",
             "name": "Controllers",
