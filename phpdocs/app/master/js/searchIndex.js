@@ -1576,11 +1576,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Media.html#method_artists"
         },                {
-            "fqsen": "\\App\\Models\\Media\u003A\u003Aimage\u0028\u0029",
-            "name": "image",
-            "summary": "",
-            "url": "classes/App-Models-Media.html#method_image"
-        },                {
             "fqsen": "\\App\\Models\\Media\u003A\u003ASTORAGE_PATH",
             "name": "STORAGE_PATH",
             "summary": "",
