@@ -166,11 +166,8 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    Login
+    Whoami
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\DanielDeWit\LighthouseSanctum\GraphQL\Mutations\Login">Login</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -182,11 +179,11 @@
     
             <span class="phpdocumentor-element__extends">
             Uses
-                            <abbr title="\DanielDeWit\LighthouseSanctum\Traits\HasUserModel">HasUserModel</abbr>                    </span>
+                            <abbr title="\DanielDeWit\LighthouseSanctum\Traits\HasAuthenticatedUser">HasAuthenticatedUser</abbr>,                             <abbr title="\DanielDeWit\LighthouseSanctum\Traits\HasUserModel">HasUserModel</abbr>                    </span>
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Login.php"><a href="files/graphql-mutations-login.html"><abbr title="GraphQL/Mutations/Login.php">Login.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Whoami.php"><a href="files/graphql-mutations-whoami.html"><abbr title="GraphQL/Mutations/Whoami.php">Whoami.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">16</span>
 
@@ -209,10 +206,31 @@ Shoutz0r however uses a username &amp; password combination</p>
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-GraphQL-Mutations-Login.html#method___invoke">__invoke()</a>
+                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/App-GraphQL-Mutations-Whoami.html#property_authFactory">$authFactory</a>
+    <span>
+                        &nbsp;: <abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr>            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-GraphQL-Mutations-Whoami.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-GraphQL-Mutations-Whoami.html#method___invoke">__invoke()</a>
     <span>
                                 &nbsp;: array&lt;string|int, string&gt;    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/App-GraphQL-Mutations-Whoami.html#method_getAuthFactory">getAuthFactory()</a>
+    <span>
+                                &nbsp;: <abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr>    </span>
 </dt>
 <dd></dd>
 
@@ -223,12 +241,96 @@ Shoutz0r however uses a username &amp; password combination</p>
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/App-GraphQL-Mutations-Whoami.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_authFactory">
+        $authFactory
+        <a href="classes/App-GraphQL-Mutations-Whoami.html#property_authFactory" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Whoami.php"><a href="files/graphql-mutations-whoami.html"><abbr title="GraphQL/Mutations/Whoami.php">Whoami.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr></span>
+    <span class="phpdocumentor-signature__name">$authFactory</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/App-GraphQL-Mutations-Login.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/App-GraphQL-Mutations-Whoami.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/App-GraphQL-Mutations-Whoami.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Whoami.php"><a href="files/graphql-mutations-whoami.html"><abbr title="GraphQL/Mutations/Whoami.php">Whoami.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">23</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$authFactory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$authFactory</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+        
+    
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -237,19 +339,19 @@ Shoutz0r however uses a username &amp; password combination</p>
 >
     <h4 class="phpdocumentor-element__name" id="method___invoke">
         __invoke()
-        <a href="classes/App-GraphQL-Mutations-Login.html#method___invoke" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/App-GraphQL-Mutations-Whoami.html#method___invoke" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Login.php"><a href="files/graphql-mutations-login.html"><abbr title="GraphQL/Mutations/Login.php">Login.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Whoami.php"><a href="files/graphql-mutations-whoami.html"><abbr title="GraphQL/Mutations/Whoami.php">Whoami.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__invoke</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">__invoke</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Nuwave\Lighthouse\Support\Contracts\GraphQLContext">GraphQLContext</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\GraphQL\Type\Definition\ResolveInfo">ResolveInfo</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$resolveInfo</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -267,6 +369,22 @@ Shoutz0r however uses a username &amp; password combination</p>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$context</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Nuwave\Lighthouse\Support\Contracts\GraphQLContext">GraphQLContext</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$resolveInfo</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\GraphQL\Type\Definition\ResolveInfo">ResolveInfo</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -288,6 +406,39 @@ Shoutz0r however uses a username &amp; password combination</p>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAuthFactory">
+        getAuthFactory()
+        <a href="classes/App-GraphQL-Mutations-Whoami.html#method_getAuthFactory" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="GraphQL/Mutations/Whoami.php"><a href="files/graphql-mutations-whoami.html"><abbr title="GraphQL/Mutations/Whoami.php">Whoami.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">getAuthFactory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Contracts\Auth\Factory">Factory</abbr></span>
             &mdash;
         
     
@@ -370,7 +521,7 @@ Shoutz0r however uses a username &amp; password combination</p>
 </section>
             </div>
         </div>
-        <a href="classes/App-GraphQL-Mutations-Login.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/App-GraphQL-Mutations-Whoami.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

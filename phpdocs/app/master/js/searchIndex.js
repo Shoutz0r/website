@@ -676,6 +676,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-GraphQL-Mutations-Login.html#method___invoke"
         },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Whoami",
+            "name": "Whoami",
+            "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
+            "url": "classes/App-GraphQL-Mutations-Whoami.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Whoami\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-Whoami.html#method___construct"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Whoami\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-Whoami.html#method___invoke"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Whoami\u003A\u003AgetAuthFactory\u0028\u0029",
+            "name": "getAuthFactory",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-Whoami.html#method_getAuthFactory"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\Whoami\u003A\u003A\u0024authFactory",
+            "name": "authFactory",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-Whoami.html#property_authFactory"
+        },                {
             "fqsen": "\\App\\GraphQL\\Subscriptions\\LastPlayedUpdated",
             "name": "LastPlayedUpdated",
             "summary": "",
@@ -1721,10 +1746,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-User.html#method_uploads"
         },                {
+            "fqsen": "\\App\\Models\\User\u003A\u003AisAdmin\u0028\u0029",
+            "name": "isAdmin",
+            "summary": "",
+            "url": "classes/App-Models-User.html#method_isAdmin"
+        },                {
             "fqsen": "\\App\\Models\\User\u003A\u003A\u0024fillable",
             "name": "fillable",
             "summary": "The\u0020attributes\u0020that\u0020are\u0020mass\u0020assignable.",
             "url": "classes/App-Models-User.html#property_fillable"
+        },                {
+            "fqsen": "\\App\\Models\\User\u003A\u003A\u0024appends",
+            "name": "appends",
+            "summary": "",
+            "url": "classes/App-Models-User.html#property_appends"
         },                {
             "fqsen": "\\App\\Models\\User\u003A\u003A\u0024hidden",
             "name": "hidden",
