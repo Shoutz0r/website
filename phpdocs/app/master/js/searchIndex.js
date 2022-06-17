@@ -666,6 +666,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Exceptions-UploadFailedRetryException.html#method___construct"
         },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\LastPlayed",
+            "name": "LastPlayed",
+            "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
+            "url": "classes/App-GraphQL-Mutations-LastPlayed.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\LastPlayed\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-LastPlayed.html#method___invoke"
+        },                {
             "fqsen": "\\App\\GraphQL\\Mutations\\Login",
             "name": "Login",
             "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
@@ -700,26 +710,6 @@ Search.appendIndex(
             "name": "authFactory",
             "summary": "",
             "url": "classes/App-GraphQL-Mutations-Whoami.html#property_authFactory"
-        },                {
-            "fqsen": "\\App\\GraphQL\\Subscriptions\\LastPlayedUpdated",
-            "name": "LastPlayedUpdated",
-            "summary": "",
-            "url": "classes/App-GraphQL-Subscriptions-LastPlayedUpdated.html"
-        },                {
-            "fqsen": "\\App\\GraphQL\\Subscriptions\\LastPlayedUpdated\u003A\u003Aauthorize\u0028\u0029",
-            "name": "authorize",
-            "summary": "Check\u0020if\u0020subscriber\u0020is\u0020allowed\u0020to\u0020listen\u0020to\u0020the\u0020subscription.",
-            "url": "classes/App-GraphQL-Subscriptions-LastPlayedUpdated.html#method_authorize"
-        },                {
-            "fqsen": "\\App\\GraphQL\\Subscriptions\\LastPlayedUpdated\u003A\u003Afilter\u0028\u0029",
-            "name": "filter",
-            "summary": "Filter\u0020which\u0020subscribers\u0020should\u0020receive\u0020the\u0020subscription.",
-            "url": "classes/App-GraphQL-Subscriptions-LastPlayedUpdated.html#method_filter"
-        },                {
-            "fqsen": "\\App\\GraphQL\\Subscriptions\\LastPlayedUpdated\u003A\u003Aresolve\u0028\u0029",
-            "name": "resolve",
-            "summary": "Resolve\u0020the\u0020subscription.",
-            "url": "classes/App-GraphQL-Subscriptions-LastPlayedUpdated.html#method_resolve"
         },                {
             "fqsen": "\\App\\HealthCheck\\BaseHealthCheck",
             "name": "BaseHealthCheck",
@@ -2030,11 +2020,6 @@ Search.appendIndex(
             "name": "GraphQL",
             "summary": "",
             "url": "namespaces/app-graphql.html"
-        },                {
-            "fqsen": "\\App\\GraphQL\\Subscriptions",
-            "name": "Subscriptions",
-            "summary": "",
-            "url": "namespaces/app-graphql-subscriptions.html"
         },                {
             "fqsen": "\\App\\HealthCheck",
             "name": "HealthCheck",
