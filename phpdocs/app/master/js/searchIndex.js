@@ -676,16 +676,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-GraphQL-Mutations-LastPlayed.html#method___invoke"
         },                {
-            "fqsen": "\\App\\GraphQL\\Mutations\\Login",
-            "name": "Login",
-            "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
-            "url": "classes/App-GraphQL-Mutations-Login.html"
-        },                {
-            "fqsen": "\\App\\GraphQL\\Mutations\\Login\u003A\u003A__invoke\u0028\u0029",
-            "name": "__invoke",
-            "summary": "",
-            "url": "classes/App-GraphQL-Mutations-Login.html#method___invoke"
-        },                {
             "fqsen": "\\App\\GraphQL\\Mutations\\Whoami",
             "name": "Whoami",
             "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
