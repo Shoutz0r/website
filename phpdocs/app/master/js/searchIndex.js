@@ -1026,6 +1026,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Helpers-Filesystem.html#method_isSymbolicLink"
         },                {
+            "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController",
+            "name": "PermissionApiController",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-Api-PermissionApiController.html"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Returns\u0020a\u0020single\u0020or\u0020all\u0020permissions",
+            "url": "classes/App-Http-Controllers-Api-PermissionApiController.html#method_get"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController\u003A\u003Auser\u0028\u0029",
+            "name": "user",
+            "summary": "Returns\u0020the\u0020permissions\u0020of\u0020the\u0020requested,\u0020or\u0020authenticated\u0020user\nRequesting\u0020the\u0020permissions\u0020of\u0020other\u0020users\u0020requires\u0020the\u0020permission\u003A\u0020admin.permissions.permission.get\nYou\u0020can\u0020filter\u0020the\u0020permissions\u0020via\u0020the\u0020\u0022type\u0022\u0020parameter.\u0020Use\u003A\u0020all,\u0020role\u0020or\u0020direct.",
+            "url": "classes/App-Http-Controllers-Api-PermissionApiController.html#method_user"
+        },                {
             "fqsen": "\\App\\Http\\Controllers\\Api\\RoleApiController",
             "name": "RoleApiController",
             "summary": "",
@@ -1045,6 +1060,21 @@ Search.appendIndex(
             "name": "guest",
             "summary": "Returns\u0020the\u0020guest\u0020role\u0020and\u0020it\u0027s\u0020permissions",
             "url": "classes/App-Http-Controllers-Api-RoleApiController.html#method_guest"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Api\\SystemApiController",
+            "name": "SystemApiController",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-Api-SystemApiController.html"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Api\\SystemApiController\u003A\u003AgetHealthStatus\u0028\u0029",
+            "name": "getHealthStatus",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-Api-SystemApiController.html#method_getHealthStatus"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\Api\\SystemApiController\u003A\u003AfixHealth\u0028\u0029",
+            "name": "fixHealth",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-Api-SystemApiController.html#method_fixHealth"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Api\\UploadApiController",
             "name": "UploadApiController",
