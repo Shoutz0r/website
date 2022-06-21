@@ -1026,76 +1026,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Helpers-Filesystem.html#method_isSymbolicLink"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AlbumApiController",
-            "name": "AlbumApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-AlbumApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\AlbumApiController\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-AlbumApiController.html#method_get"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ArtistApiController",
-            "name": "ArtistApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-ArtistApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\ArtistApiController\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-ArtistApiController.html#method_get"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\DashboardApiController",
-            "name": "DashboardApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-DashboardApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\DashboardApiController\u003A\u003AgetHealthStatus\u0028\u0029",
-            "name": "getHealthStatus",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-DashboardApiController.html#method_getHealthStatus"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\DashboardApiController\u003A\u003AfixHealth\u0028\u0029",
-            "name": "fixHealth",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-DashboardApiController.html#method_fixHealth"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\MediaSourceApiController",
-            "name": "MediaSourceApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-MediaSourceApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\MediaSourceApiController\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-MediaSourceApiController.html#method_get"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController",
-            "name": "PermissionApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-PermissionApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Returns\u0020a\u0020single\u0020or\u0020all\u0020permissions",
-            "url": "classes/App-Http-Controllers-Api-PermissionApiController.html#method_get"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\PermissionApiController\u003A\u003Auser\u0028\u0029",
-            "name": "user",
-            "summary": "Returns\u0020the\u0020permissions\u0020of\u0020the\u0020requested,\u0020or\u0020authenticated\u0020user\nRequesting\u0020the\u0020permissions\u0020of\u0020other\u0020users\u0020requires\u0020the\u0020permission\u003A\u0020admin.permissions.permission.get\nYou\u0020can\u0020filter\u0020the\u0020permissions\u0020via\u0020the\u0020\u0022type\u0022\u0020parameter.\u0020Use\u003A\u0020all,\u0020role\u0020or\u0020direct.",
-            "url": "classes/App-Http-Controllers-Api-PermissionApiController.html#method_user"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\RequestApiController",
-            "name": "RequestApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-RequestApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\RequestApiController\u003A\u003Aindex\u0028\u0029",
-            "name": "index",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-RequestApiController.html#method_index"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\Api\\RoleApiController",
             "name": "RoleApiController",
             "summary": "",
@@ -1116,21 +1046,6 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020guest\u0020role\u0020and\u0020it\u0027s\u0020permissions",
             "url": "classes/App-Http-Controllers-Api-RoleApiController.html#method_guest"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\SystemApiController",
-            "name": "SystemApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-SystemApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\SystemApiController\u003A\u003AgetHealthStatus\u0028\u0029",
-            "name": "getHealthStatus",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-SystemApiController.html#method_getHealthStatus"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\SystemApiController\u003A\u003AfixHealth\u0028\u0029",
-            "name": "fixHealth",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-SystemApiController.html#method_fixHealth"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\Api\\UploadApiController",
             "name": "UploadApiController",
             "summary": "",
@@ -1140,16 +1055,6 @@ Search.appendIndex(
             "name": "store",
             "summary": "",
             "url": "classes/App-Http-Controllers-Api-UploadApiController.html#method_store"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\VoteApiController",
-            "name": "VoteApiController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-VoteApiController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\Api\\VoteApiController\u003A\u003Acount\u0028\u0029",
-            "name": "count",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-Api-VoteApiController.html#method_count"
         },                {
             "fqsen": "\\App\\Http\\Controllers\\Controller",
             "name": "Controller",
