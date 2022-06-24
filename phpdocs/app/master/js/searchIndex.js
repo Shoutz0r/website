@@ -1536,6 +1536,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Media.html#method_artists"
         },                {
+            "fqsen": "\\App\\Models\\Media\u003A\u003AgetImageAttribute\u0028\u0029",
+            "name": "getImageAttribute",
+            "summary": "",
+            "url": "classes/App-Models-Media.html#method_getImageAttribute"
+        },                {
             "fqsen": "\\App\\Models\\Media\u003A\u003ASTORAGE_PATH",
             "name": "STORAGE_PATH",
             "summary": "",
