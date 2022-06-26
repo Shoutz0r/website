@@ -208,6 +208,13 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/App-Models-Upload.html#constant_CREATED_AT">CREATED_AT</a>
+    <span>
+        &nbsp;= &#039;uploaded_at&#039;                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/App-Models-Upload.html#constant_QUEUE_NAME">QUEUE_NAME</a>
     <span>
         &nbsp;= &#039;uploads&#039;                            </span>
@@ -249,14 +256,14 @@
 </dt>
 <dd></dd>
 
-                    <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a href="classes/App-Models-Upload.html#property_timestamps">$timestamps</a>
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/App-Models-Upload.html#constant_UPDATED_AT">UPDATED_AT</a>
     <span>
-                        &nbsp;: mixed            </span>
+        &nbsp;= null                            </span>
 </dt>
 <dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Traits-UsesUUID.html#method_getIncrementing">getIncrementing()</a>
     <span>
                                 &nbsp;: mixed    </span>
@@ -271,7 +278,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Models-Upload.html#method_user">user()</a>
+    <a href="classes/App-Models-Upload.html#method_uploaded_by">uploaded_by()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
@@ -294,6 +301,35 @@
             Constants
             <a href="classes/App-Models-Upload.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_CREATED_AT">
+        CREATED_AT
+        <a href="classes/App-Models-Upload.html#constant_CREATED_AT" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Models/Upload.php"><a href="files/models-upload.html"><abbr title="Models/Upload.php">Upload.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">CREATED_AT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;uploaded_at&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
                     <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_QUEUE_NAME">
         QUEUE_NAME
@@ -468,40 +504,27 @@
     
 
 </article>
-            </section>
-
-        
-    <section class="phpdocumentor-properties">
-        <h3 class="phpdocumentor-elements__header" id="properties">
-            Properties
-            <a href="classes/App-Models-Upload.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
-        </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_timestamps">
-        $timestamps
-        <a href="classes/App-Models-Upload.html#property_timestamps" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_UPDATED_AT">
+        UPDATED_AT
+        <a href="classes/App-Models-Upload.html#constant_UPDATED_AT" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
+
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Models/Upload.php"><a href="files/models-upload.html"><abbr title="Models/Upload.php">Upload.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
-    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$timestamps</span>
-     = <span class="phpdocumentor-signature__default-value">false</span></code>
+    <span class="phpdocumentor-signature__name">UPDATED_AT</span>
+    = <span class="phpdocumentor-signature__default-value">null</span>
+</code>
+
 
         <section class="phpdocumentor-description"></section>
 
@@ -511,6 +534,8 @@
 
 </article>
             </section>
+
+        
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -589,21 +614,21 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_user">
-        user()
-        <a href="classes/App-Models-Upload.html#method_user" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_uploaded_by">
+        uploaded_by()
+        <a href="classes/App-Models-Upload.html#method_uploaded_by" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Models/Upload.php"><a href="files/models-upload.html"><abbr title="Models/Upload.php">Upload.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">user</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">uploaded_by</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 

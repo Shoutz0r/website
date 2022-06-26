@@ -1616,10 +1616,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Upload.html"
         },                {
-            "fqsen": "\\App\\Models\\Upload\u003A\u003Auser\u0028\u0029",
-            "name": "user",
+            "fqsen": "\\App\\Models\\Upload\u003A\u003Auploaded_by\u0028\u0029",
+            "name": "uploaded_by",
             "summary": "",
-            "url": "classes/App-Models-Upload.html#method_user"
+            "url": "classes/App-Models-Upload.html#method_uploaded_by"
         },                {
             "fqsen": "\\App\\Models\\Upload\u003A\u003ASTATUS_QUEUED",
             "name": "STATUS_QUEUED",
@@ -1651,10 +1651,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Upload.html#constant_STORAGE_PATH"
         },                {
-            "fqsen": "\\App\\Models\\Upload\u003A\u003A\u0024timestamps",
-            "name": "timestamps",
+            "fqsen": "\\App\\Models\\Upload\u003A\u003ACREATED_AT",
+            "name": "CREATED_AT",
             "summary": "",
-            "url": "classes/App-Models-Upload.html#property_timestamps"
+            "url": "classes/App-Models-Upload.html#constant_CREATED_AT"
+        },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003AUPDATED_AT",
+            "name": "UPDATED_AT",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#constant_UPDATED_AT"
         },                {
             "fqsen": "\\App\\Models\\User",
             "name": "User",
