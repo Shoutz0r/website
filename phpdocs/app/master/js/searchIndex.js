@@ -1048,8 +1048,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Jobs\\ProcessUpload\u003A\u003A\u0024tries",
             "name": "tries",
-            "summary": "",
+            "summary": "The\u0020number\u0020of\u0020times\u0020the\u0020job\u0020may\u0020be\u0020attempted.",
             "url": "classes/App-Jobs-ProcessUpload.html#property_tries"
+        },                {
+            "fqsen": "\\App\\Jobs\\ProcessUpload\u003A\u003A\u0024backoff",
+            "name": "backoff",
+            "summary": "The\u0020number\u0020of\u0020seconds\u0020to\u0020wait\u0020before\u0020retrying\u0020the\u0020job.",
+            "url": "classes/App-Jobs-ProcessUpload.html#property_backoff"
         },                {
             "fqsen": "\\App\\Listeners\\UploadValidateMedia",
             "name": "UploadValidateMedia",
