@@ -241,331 +241,6 @@ Search.appendIndex(
             "summary": "Register\u0020the\u0020commands\u0020for\u0020the\u0020application.",
             "url": "classes/App-Console-Kernel.html#method_commands"
         },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent",
-            "name": "AlbumCreateEvent",
-            "summary": "Class\u0020AlbumCreateEvent\nGets\u0020called\u0020when\u0020an\u0020album\u0020gets\u0020added\u0020to\u0020Shoutz0r",
-            "url": "classes/App-Events-Internal-AlbumCreateEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumCreateEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent\u003A\u003AgetAlbum\u0028\u0029",
-            "name": "getAlbum",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumCreateEvent.html#method_getAlbum"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumCreateEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumCreateEvent\u003A\u003A\u0024album",
-            "name": "album",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumCreateEvent.html#property_album"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumSearchEvent",
-            "name": "AlbumSearchEvent",
-            "summary": "Class\u0020AlbumSearchEvent\nGets\u0020called\u0020when\u0020shoutz0r\u0020\u0028or\u0020a\u0020plugin\u0029\u0020should\u0020search\u0020for\u0020an\u0020Album\u0020for\u0020the\u0020give\u0020media\u0020file",
-            "url": "classes/App-Events-Internal-AlbumSearchEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumSearchEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumSearchEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumSearchEvent\u003A\u003AgetMedia\u0028\u0029",
-            "name": "getMedia",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumSearchEvent.html#method_getMedia"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumSearchEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumSearchEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\AlbumSearchEvent\u003A\u003A\u0024media",
-            "name": "media",
-            "summary": "",
-            "url": "classes/App-Events-Internal-AlbumSearchEvent.html#property_media"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistCreateEvent",
-            "name": "ArtistCreateEvent",
-            "summary": "Class\u0020ArtistCreateEvent\nGets\u0020called\u0020when\u0020an\u0020artist\u0020gets\u0020added\u0020to\u0020Shoutz0r",
-            "url": "classes/App-Events-Internal-ArtistCreateEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistCreateEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistCreateEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistCreateEvent\u003A\u003AgetArtist\u0028\u0029",
-            "name": "getArtist",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistCreateEvent.html#method_getArtist"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistCreateEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistCreateEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistCreateEvent\u003A\u003A\u0024artist",
-            "name": "artist",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistCreateEvent.html#property_artist"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistSearchEvent",
-            "name": "ArtistSearchEvent",
-            "summary": "Class\u0020ArtistSearchEvent\nGets\u0020called\u0020when\u0020shoutz0r\u0020\u0028or\u0020a\u0020plugin\u0029\u0020should\u0020search\u0020for\u0020an\u0020Artist\u0020for\u0020the\u0020give\u0020media\u0020file",
-            "url": "classes/App-Events-Internal-ArtistSearchEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistSearchEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistSearchEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistSearchEvent\u003A\u003AgetMedia\u0028\u0029",
-            "name": "getMedia",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistSearchEvent.html#method_getMedia"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistSearchEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistSearchEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\ArtistSearchEvent\u003A\u003A\u0024media",
-            "name": "media",
-            "summary": "",
-            "url": "classes/App-Events-Internal-ArtistSearchEvent.html#property_media"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\MediaPlayingEvent",
-            "name": "MediaPlayingEvent",
-            "summary": "Class\u0020MediaPlayingEvent\nGets\u0020called\u0020when\u0020a\u0020media\u0020object\u0020started\u0020playing\u0020on\u0020Shoutz0r",
-            "url": "classes/App-Events-Internal-MediaPlayingEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\MediaPlayingEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-MediaPlayingEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\MediaPlayingEvent\u003A\u003AgetMedia\u0028\u0029",
-            "name": "getMedia",
-            "summary": "",
-            "url": "classes/App-Events-Internal-MediaPlayingEvent.html#method_getMedia"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\MediaPlayingEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-MediaPlayingEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\MediaPlayingEvent\u003A\u003A\u0024media",
-            "name": "media",
-            "summary": "",
-            "url": "classes/App-Events-Internal-MediaPlayingEvent.html#property_media"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\RequestAddedEvent",
-            "name": "RequestAddedEvent",
-            "summary": "Class\u0020RequestAddedEvent\nGets\u0020called\u0020when\u0020a\u0020request\u0020is\u0020added\u0020to\u0020the\u0020Queue",
-            "url": "classes/App-Events-Internal-RequestAddedEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\RequestAddedEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-RequestAddedEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\RequestAddedEvent\u003A\u003AgetRequest\u0028\u0029",
-            "name": "getRequest",
-            "summary": "",
-            "url": "classes/App-Events-Internal-RequestAddedEvent.html#method_getRequest"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\RequestAddedEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-RequestAddedEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\RequestAddedEvent\u003A\u003A\u0024request",
-            "name": "request",
-            "summary": "",
-            "url": "classes/App-Events-Internal-RequestAddedEvent.html#property_request"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadAddedEvent",
-            "name": "UploadAddedEvent",
-            "summary": "Class\u0020UploadAddedEvent\nGets\u0020called\u0020when\u0020a\u0020file\u0020has\u0020been\u0020uploaded,\u0020the\u0020file\u0020wont\u0020be\u0020parsed\u0020until\u0020UploadProcessingEvent\u0020is\u0020called",
-            "url": "classes/App-Events-Internal-UploadAddedEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadAddedEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadAddedEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadAddedEvent\u003A\u003AgetUpload\u0028\u0029",
-            "name": "getUpload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadAddedEvent.html#method_getUpload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadAddedEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadAddedEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadAddedEvent\u003A\u003A\u0024upload",
-            "name": "upload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadAddedEvent.html#property_upload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFailedEvent",
-            "name": "UploadFailedEvent",
-            "summary": "Class\u0020UploadFailedEvent\nGets\u0020called\u0020when\u0020an\u0020upload\u0020from\u0020the\u0020queue\u0020has\u0020been\u0020processed,\u0020but\u0020was\u0020deemed\u0020invalid",
-            "url": "classes/App-Events-Internal-UploadFailedEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFailedEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFailedEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFailedEvent\u003A\u003AgetUpload\u0028\u0029",
-            "name": "getUpload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFailedEvent.html#method_getUpload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFailedEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFailedEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFailedEvent\u003A\u003A\u0024upload",
-            "name": "upload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFailedEvent.html#property_upload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent",
-            "name": "UploadFinishedEvent",
-            "summary": "Class\u0020UploadFinishedEvent\nGets\u0020called\u0020when\u0020an\u0020upload\u0020from\u0020the\u0020queue\u0020has\u0020finished\u0020processing",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent\u003A\u003AgetUpload\u0028\u0029",
-            "name": "getUpload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html#method_getUpload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent\u003A\u003AgetMedia\u0028\u0029",
-            "name": "getMedia",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html#method_getMedia"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent\u003A\u003A\u0024upload",
-            "name": "upload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html#property_upload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadFinishedEvent\u003A\u003A\u0024media",
-            "name": "media",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadFinishedEvent.html#property_media"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadProcessingEvent",
-            "name": "UploadProcessingEvent",
-            "summary": "Class\u0020UploadProcessingEvent\nGets\u0020called\u0020when\u0020an\u0020upload\u0020from\u0020the\u0020queue\u0020is\u0020being\u0020processed",
-            "url": "classes/App-Events-Internal-UploadProcessingEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadProcessingEvent\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadProcessingEvent.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadProcessingEvent\u003A\u003AgetUpload\u0028\u0029",
-            "name": "getUpload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadProcessingEvent.html#method_getUpload"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadProcessingEvent\u003A\u003ANAME",
-            "name": "NAME",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadProcessingEvent.html#constant_NAME"
-        },                {
-            "fqsen": "\\App\\Events\\Internal\\UploadProcessingEvent\u003A\u003A\u0024upload",
-            "name": "upload",
-            "summary": "",
-            "url": "classes/App-Events-Internal-UploadProcessingEvent.html#property_upload"
-        },                {
-            "fqsen": "\\App\\Events\\ReadOnlyEvent",
-            "name": "ReadOnlyEvent",
-            "summary": "Creates\u0020a\u0020read\u002Donly\u0020event,\u0020this\u0020event\u0020cannot\u0020be\u0020marked\u0020as\u0020invalid\u0020or\u0020stopped\u0020from\u0020propagating.",
-            "url": "classes/App-Events-ReadOnlyEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AstopPropagation\u0028\u0029",
-            "name": "stopPropagation",
-            "summary": "Will\u0020throw\u0020an\u0020exception\u0020when\u0020called,\u0020since\u0020you\u0020cannot\u0020stop\u0020propagation\u0020of\u0020a\u0020ReadOnlyEvent",
-            "url": "classes/App-Events-ReadOnlyEvent.html#method_stopPropagation"
-        },                {
-            "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AsetInvalid\u0028\u0029",
-            "name": "setInvalid",
-            "summary": "Will\u0020throw\u0020an\u0020exception\u0020when\u0020called,\u0020since\u0020you\u0020cannot\u0020mark\u0020a\u0020ReadOnlyEvent\u0020as\u0020invalid",
-            "url": "classes/App-Events-ReadOnlyEvent.html#method_setInvalid"
-        },                {
-            "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AisValid\u0028\u0029",
-            "name": "isValid",
-            "summary": "Returns\u0020if\u0020the\u0020event\u0020is\u0020valid.\u0020This\u0020will\u0020always\u0020be\u0020true\u0020for\u0020a\u0020ReadOnlyEvent.",
-            "url": "classes/App-Events-ReadOnlyEvent.html#method_isValid"
-        },                {
-            "fqsen": "\\App\\Events\\ReadOnlyEvent\u003A\u003AisPropagationStopped\u0028\u0029",
-            "name": "isPropagationStopped",
-            "summary": "Returns\u0020if\u0020the\u0020propagation\u0020of\u0020this\u0020event\u0020should\u0020be\u0020stopped.\u0020This\u0020will\u0020always\u0020be\u0020false\u0020for\u0020a\u0020ReadOnlyEvent.",
-            "url": "classes/App-Events-ReadOnlyEvent.html#method_isPropagationStopped"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorDispatcher",
-            "name": "ShoutzorDispatcher",
-            "summary": "",
-            "url": "classes/App-Events-ShoutzorDispatcher.html"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorDispatcher\u003A\u003AgetListeners\u0028\u0029",
-            "name": "getListeners",
-            "summary": "Get\u0020all\u0020of\u0020the\u0020listeners\u0020for\u0020a\u0020given\u0020event\u0020name.",
-            "url": "classes/App-Events-ShoutzorDispatcher.html#method_getListeners"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorEvent",
-            "name": "ShoutzorEvent",
-            "summary": "Base\u0020Event\u0020class\u0020to\u0020be\u0020used\u0020by\u0020internal\u0020Events\u0020from\u0020Shoutz0r\u0020\u0028ie\u003A\u0020non\u002Dfrontend\u0029",
-            "url": "classes/App-Events-ShoutzorEvent.html"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003AgetReason\u0028\u0029",
-            "name": "getReason",
-            "summary": "Returns\u0020the\u0020reason\u0020why\u0020the\u0020event\u0020is\u0020marked\u0020as\u0020invalid",
-            "url": "classes/App-Events-ShoutzorEvent.html#method_getReason"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003AsetInvalid\u0028\u0029",
-            "name": "setInvalid",
-            "summary": "Marks\u0020the\u0020upload\u0020as\u0020invalid",
-            "url": "classes/App-Events-ShoutzorEvent.html#method_setInvalid"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003AisValid\u0028\u0029",
-            "name": "isValid",
-            "summary": "Returns\u0020whether\u0020the\u0020event\u0020is\u0020valid\u0020or\u0020not",
-            "url": "classes/App-Events-ShoutzorEvent.html#method_isValid"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003A\u0024valid",
-            "name": "valid",
-            "summary": "",
-            "url": "classes/App-Events-ShoutzorEvent.html#property_valid"
-        },                {
-            "fqsen": "\\App\\Events\\ShoutzorEvent\u003A\u003A\u0024reason",
-            "name": "reason",
-            "summary": "",
-            "url": "classes/App-Events-ShoutzorEvent.html#property_reason"
-        },                {
             "fqsen": "\\App\\Exceptions\\formValidationException",
             "name": "formValidationException",
             "summary": "This\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020form\u0020has\u0020failed\u0020validation.",
@@ -646,25 +321,15 @@ Search.appendIndex(
             "summary": "A\u0020list\u0020of\u0020the\u0020inputs\u0020that\u0020are\u0020never\u0020flashed\u0020for\u0020validation\u0020exceptions.",
             "url": "classes/App-Exceptions-Handler.html#property_dontFlash"
         },                {
-            "fqsen": "\\App\\Exceptions\\UploadFailedFinalException",
-            "name": "UploadFailedFinalException",
+            "fqsen": "\\App\\Exceptions\\UploadExistsException",
+            "name": "UploadExistsException",
             "summary": "",
-            "url": "classes/App-Exceptions-UploadFailedFinalException.html"
+            "url": "classes/App-Exceptions-UploadExistsException.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\UploadFailedFinalException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\UploadExistsException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/App-Exceptions-UploadFailedFinalException.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Exceptions\\UploadFailedRetryException",
-            "name": "UploadFailedRetryException",
-            "summary": "",
-            "url": "classes/App-Exceptions-UploadFailedRetryException.html"
-        },                {
-            "fqsen": "\\App\\Exceptions\\UploadFailedRetryException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Exceptions-UploadFailedRetryException.html#method___construct"
+            "url": "classes/App-Exceptions-UploadExistsException.html#method___construct"
         },                {
             "fqsen": "\\App\\GraphQL\\Mutations\\LastPlayed",
             "name": "LastPlayed",
@@ -1381,6 +1046,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Jobs-ProcessUpload.html#property_upload"
         },                {
+            "fqsen": "\\App\\Jobs\\ProcessUpload\u003A\u003A\u0024tries",
+            "name": "tries",
+            "summary": "",
+            "url": "classes/App-Jobs-ProcessUpload.html#property_tries"
+        },                {
             "fqsen": "\\App\\Listeners\\UploadValidateMedia",
             "name": "UploadValidateMedia",
             "summary": "",
@@ -1481,11 +1151,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Album.html"
         },                {
-            "fqsen": "\\App\\Models\\Album\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "",
-            "url": "classes/App-Models-Album.html#method_create"
-        },                {
             "fqsen": "\\App\\Models\\Album\u003A\u003Aartists\u0028\u0029",
             "name": "artists",
             "summary": "",
@@ -1505,11 +1170,6 @@ Search.appendIndex(
             "name": "Artist",
             "summary": "",
             "url": "classes/App-Models-Artist.html"
-        },                {
-            "fqsen": "\\App\\Models\\Artist\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "",
-            "url": "classes/App-Models-Artist.html#method_create"
         },                {
             "fqsen": "\\App\\Models\\Artist\u003A\u003Aalbums\u0028\u0029",
             "name": "albums",
@@ -1736,10 +1396,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Processors-UploadProcessor.html#method_parse"
         },                {
-            "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
-            "summary": "",
-            "url": "classes/App-Processors-UploadProcessor.html#method_process"
+            "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003AcreateBaseMediaObject\u0028\u0029",
+            "name": "createBaseMediaObject",
+            "summary": "Create\u0020the\u0020base\u0020media\u0020object\u0020for\u0020the\u0020uploaded\u0020file\nThis\u0020method\u0020only\u0020sets\u0020some\u0020default\u0020properties\u0020and\u0020does\u0020not\u0020do\u0020any\u0020saniziting\u0020or\u0020processing\u0020yet.",
+            "url": "classes/App-Processors-UploadProcessor.html#method_createBaseMediaObject"
         },                {
             "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003AgetDuration\u0028\u0029",
             "name": "getDuration",
@@ -1930,16 +1590,6 @@ Search.appendIndex(
             "name": "Console",
             "summary": "",
             "url": "namespaces/app-console.html"
-        },                {
-            "fqsen": "\\App\\Events\\Internal",
-            "name": "Internal",
-            "summary": "",
-            "url": "namespaces/app-events-internal.html"
-        },                {
-            "fqsen": "\\App\\Events",
-            "name": "Events",
-            "summary": "",
-            "url": "namespaces/app-events.html"
         },                {
             "fqsen": "\\App\\Exceptions",
             "name": "Exceptions",

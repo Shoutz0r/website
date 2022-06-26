@@ -68,10 +68,6 @@
                 
             </li>
                     <li>
-                <a href="namespaces/app-events.html" class="">Events</a>
-                
-            </li>
-                    <li>
                 <a href="namespaces/app-exceptions.html" class="">Exceptions</a>
                 
             </li>
@@ -132,16 +128,6 @@
     <a href="packages/Application.html" class="">Application</a>
 </h4>
 
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="packages/App.html" class="">App</a>
-</h4>
-    <ul class="phpdocumentor-list">
-                    <li>
-                <a href="packages/App-Events.html" class="">Events</a>
-                
-            </li>
-            </ul>
-
                         </section>
             
     <section class="phpdocumentor-sidebar__category">
@@ -181,7 +167,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -204,21 +190,21 @@
                     <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/App-Processors-UploadProcessor.html#property_id3">$id3</a>
     <span>
-                        &nbsp;: mixed            </span>
+                        &nbsp;: <abbr title="\getID3">getID3</abbr>            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/App-Processors-UploadProcessor.html#property_mediaDir">$mediaDir</a>
     <span>
-                        &nbsp;: mixed            </span>
+                        &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/App-Processors-UploadProcessor.html#property_tempMediaDir">$tempMediaDir</a>
     <span>
-                        &nbsp;: mixed            </span>
+                        &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
@@ -244,18 +230,19 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/App-Processors-UploadProcessor.html#method_createBaseMediaObject">createBaseMediaObject()</a>
+    <span>
+                                &nbsp;: <a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a>    </span>
+</dt>
+<dd>Create the base media object for the uploaded file
+This method only sets some default properties and does not do any saniziting or processing yet.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/App-Processors-UploadProcessor.html#method_getDuration">getDuration()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Calculates the duration (in seconds) of a file</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/App-Processors-UploadProcessor.html#method_process">process()</a>
-    <span>
-                                &nbsp;: <a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a>    </span>
-</dt>
-<dd></dd>
 
         </dl>
 
@@ -285,14 +272,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\getID3">getID3</abbr></span>
     <span class="phpdocumentor-signature__name">$id3</span>
     </code>
 
@@ -319,14 +306,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$mediaDir</span>
     </code>
 
@@ -353,14 +340,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$tempMediaDir</span>
     </code>
 
@@ -391,7 +378,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -424,7 +411,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -433,8 +420,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">parse</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Upload.html"><abbr title="\App\Models\Upload">Upload</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$upload</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -448,6 +434,20 @@
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/App-Exceptions-UploadExistsException.html"><abbr title="\App\Exceptions\UploadExistsException">UploadExistsException</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
@@ -468,7 +468,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">120</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -500,7 +500,7 @@
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/App-Exceptions-UploadExistsException.html"><abbr title="\App\Exceptions\UploadExistsException">UploadExistsException</abbr></a></span>
                                                             
                                                  <section class="phpdocumentor-description"><p>if the Media file is not unique</p>
 </section>
@@ -520,6 +520,50 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_createBaseMediaObject">
+        createBaseMediaObject()
+        <a href="classes/App-Processors-UploadProcessor.html#method_createBaseMediaObject" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Create the base media object for the uploaded file
+This method only sets some default properties and does not do any saniziting or processing yet.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">createBaseMediaObject</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Upload.html"><abbr title="\App\Models\Upload">Upload</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$upload</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a></span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$upload</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Upload.html"><abbr title="\App\Models\Upload">Upload</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a></span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getDuration">
         getDuration()
         <a href="classes/App-Processors-UploadProcessor.html#method_getDuration" class="headerlink"><i class="fas fa-link"></i></a>
@@ -527,7 +571,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">102</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -554,50 +598,6 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_process">
-        process()
-        <a href="classes/App-Processors-UploadProcessor.html#method_process" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">78</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">process</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Upload.html"><abbr title="\App\Models\Upload">Upload</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$upload</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a></span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$upload</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Upload.html"><abbr title="\App\Models\Upload">Upload</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a></span>
             &mdash;
         
     
