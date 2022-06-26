@@ -167,7 +167,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -191,20 +191,6 @@
     <a href="classes/App-Processors-UploadProcessor.html#property_id3">$id3</a>
     <span>
                         &nbsp;: <abbr title="\getID3">getID3</abbr>            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Processors-UploadProcessor.html#property_mediaDir">$mediaDir</a>
-    <span>
-                        &nbsp;: string            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Processors-UploadProcessor.html#property_tempMediaDir">$tempMediaDir</a>
-    <span>
-                        &nbsp;: string            </span>
 </dt>
 <dd></dd>
 
@@ -240,9 +226,16 @@ This method only sets some default properties and does not do any saniziting or 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/App-Processors-UploadProcessor.html#method_getDuration">getDuration()</a>
     <span>
-                                &nbsp;: mixed    </span>
+                                &nbsp;: int    </span>
 </dt>
 <dd>Calculates the duration (in seconds) of a file</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/App-Processors-UploadProcessor.html#method_parseTags">parseTags()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd></dd>
 
         </dl>
 
@@ -272,7 +265,7 @@ This method only sets some default properties and does not do any saniziting or 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -281,74 +274,6 @@ This method only sets some default properties and does not do any saniziting or 
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><abbr title="\getID3">getID3</abbr></span>
     <span class="phpdocumentor-signature__name">$id3</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_mediaDir">
-        $mediaDir
-        <a href="classes/App-Processors-UploadProcessor.html#property_mediaDir" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">16</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$mediaDir</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_tempMediaDir">
-        $tempMediaDir
-        <a href="classes/App-Processors-UploadProcessor.html#property_tempMediaDir" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">17</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$tempMediaDir</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -411,7 +336,7 @@ This method only sets some default properties and does not do any saniziting or 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -443,7 +368,7 @@ This method only sets some default properties and does not do any saniziting or 
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/App-Exceptions-UploadExistsException.html"><abbr title="\App\Exceptions\UploadExistsException">UploadExistsException</abbr></a></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/App-Exceptions-MediaExistsException.html"><abbr title="\App\Exceptions\MediaExistsException">MediaExistsException</abbr></a></span>
                                                             
                                              
                                     </dd>
@@ -468,7 +393,7 @@ This method only sets some default properties and does not do any saniziting or 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
@@ -500,7 +425,7 @@ This method only sets some default properties and does not do any saniziting or 
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/App-Exceptions-UploadExistsException.html"><abbr title="\App\Exceptions\UploadExistsException">UploadExistsException</abbr></a></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/App-Exceptions-MediaExistsException.html"><abbr title="\App\Exceptions\MediaExistsException">MediaExistsException</abbr></a></span>
                                                             
                                                  <section class="phpdocumentor-description"><p>if the Media file is not unique</p>
 </section>
@@ -527,7 +452,7 @@ This method only sets some default properties and does not do any saniziting or 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -571,7 +496,7 @@ This method only sets some default properties and does not do any saniziting or 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -579,14 +504,14 @@ This method only sets some default properties and does not do any saniziting or 
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">getDuration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$media</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">getDuration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id3info</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$media</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Models-Media.html"><abbr title="\App\Models\Media">Media</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$id3info</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -597,7 +522,51 @@ This method only sets some default properties and does not do any saniziting or 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_parseTags">
+        parseTags()
+        <a href="classes/App-Processors-UploadProcessor.html#method_parseTags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Processors/UploadProcessor.php"><a href="files/processors-uploadprocessor.html"><abbr title="Processors/UploadProcessor.php">UploadProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">105</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">parseTags</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id3info</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$id3info</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
         
     

@@ -321,15 +321,35 @@ Search.appendIndex(
             "summary": "A\u0020list\u0020of\u0020the\u0020inputs\u0020that\u0020are\u0020never\u0020flashed\u0020for\u0020validation\u0020exceptions.",
             "url": "classes/App-Exceptions-Handler.html#property_dontFlash"
         },                {
-            "fqsen": "\\App\\Exceptions\\UploadExistsException",
-            "name": "UploadExistsException",
+            "fqsen": "\\App\\Exceptions\\MediaExistsException",
+            "name": "MediaExistsException",
             "summary": "",
-            "url": "classes/App-Exceptions-UploadExistsException.html"
+            "url": "classes/App-Exceptions-MediaExistsException.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\UploadExistsException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\MediaExistsException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/App-Exceptions-UploadExistsException.html#method___construct"
+            "url": "classes/App-Exceptions-MediaExistsException.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Exceptions\\MediaPropertyMissingException",
+            "name": "MediaPropertyMissingException",
+            "summary": "",
+            "url": "classes/App-Exceptions-MediaPropertyMissingException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\MediaPropertyMissingException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Exceptions-MediaPropertyMissingException.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Exceptions\\UploadFileMissingException",
+            "name": "UploadFileMissingException",
+            "summary": "",
+            "url": "classes/App-Exceptions-UploadFileMissingException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\UploadFileMissingException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Exceptions-UploadFileMissingException.html#method___construct"
         },                {
             "fqsen": "\\App\\GraphQL\\Mutations\\LastPlayed",
             "name": "LastPlayed",
@@ -1031,11 +1051,6 @@ Search.appendIndex(
             "summary": "Execute\u0020the\u0020job.",
             "url": "classes/App-Jobs-ProcessUpload.html#method_handle"
         },                {
-            "fqsen": "\\App\\Jobs\\ProcessUpload\u003A\u003Afailed\u0028\u0029",
-            "name": "failed",
-            "summary": "Handle\u0020a\u0020job\u0020failure.",
-            "url": "classes/App-Jobs-ProcessUpload.html#method_failed"
-        },                {
             "fqsen": "\\App\\Jobs\\ProcessUpload\u003A\u003AretryUntil\u0028\u0029",
             "name": "retryUntil",
             "summary": "Determine\u0020the\u0020time\u0020at\u0020which\u0020the\u0020job\u0020should\u0020timeout.",
@@ -1326,6 +1341,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Upload.html#constant_UPDATED_AT"
         },                {
+            "fqsen": "\\App\\Models\\Upload\u003A\u003A\u0024fillable",
+            "name": "fillable",
+            "summary": "",
+            "url": "classes/App-Models-Upload.html#property_fillable"
+        },                {
             "fqsen": "\\App\\Models\\User",
             "name": "User",
             "summary": "",
@@ -1411,6 +1431,11 @@ Search.appendIndex(
             "summary": "Calculates\u0020the\u0020duration\u0020\u0028in\u0020seconds\u0029\u0020of\u0020a\u0020file",
             "url": "classes/App-Processors-UploadProcessor.html#method_getDuration"
         },                {
+            "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003AparseTags\u0028\u0029",
+            "name": "parseTags",
+            "summary": "",
+            "url": "classes/App-Processors-UploadProcessor.html#method_parseTags"
+        },                {
             "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003AcheckIfUnique\u0028\u0029",
             "name": "checkIfUnique",
             "summary": "",
@@ -1420,16 +1445,6 @@ Search.appendIndex(
             "name": "id3",
             "summary": "",
             "url": "classes/App-Processors-UploadProcessor.html#property_id3"
-        },                {
-            "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003A\u0024mediaDir",
-            "name": "mediaDir",
-            "summary": "",
-            "url": "classes/App-Processors-UploadProcessor.html#property_mediaDir"
-        },                {
-            "fqsen": "\\App\\Processors\\UploadProcessor\u003A\u003A\u0024tempMediaDir",
-            "name": "tempMediaDir",
-            "summary": "",
-            "url": "classes/App-Processors-UploadProcessor.html#property_tempMediaDir"
         },                {
             "fqsen": "\\App\\Providers\\AppServiceProvider",
             "name": "AppServiceProvider",
