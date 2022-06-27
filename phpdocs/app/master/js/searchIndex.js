@@ -946,11 +946,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Installer-Installer.html"
         },                {
-            "fqsen": "\\App\\Installer\\Installer\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Installer-Installer.html#method___construct"
-        },                {
             "fqsen": "\\App\\Installer\\Installer\u003A\u003AconfigureSql\u0028\u0029",
             "name": "configureSql",
             "summary": "Tests\u0020\u0026\u0020Configures\u0020the\u0020SQL\u0020settings\u0020to\u0020use",
