@@ -261,55 +261,60 @@ Search.appendIndex(
             "summary": "Register\u0020the\u0020commands\u0020for\u0020the\u0020application.",
             "url": "classes/App-Console-Kernel.html#method_commands"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationException",
-            "name": "formValidationException",
-            "summary": "This\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020form\u0020has\u0020failed\u0020validation.",
-            "url": "classes/App-Exceptions-formValidationException.html"
+            "fqsen": "\\App\\Exceptions\\ConfigPropertyMissingException",
+            "name": "ConfigPropertyMissingException",
+            "summary": "",
+            "url": "classes/App-Exceptions-ConfigPropertyMissingException.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\FormValidationException",
+            "name": "FormValidationException",
+            "summary": "This\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020form\u0020has\u0020failed\u0020validation.",
+            "url": "classes/App-Exceptions-FormValidationException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\FormValidationException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/App-Exceptions-formValidationException.html#method___construct"
+            "url": "classes/App-Exceptions-FormValidationException.html#method___construct"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationException\u003A\u003AgetErrors\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\FormValidationException\u003A\u003AgetErrors\u0028\u0029",
             "name": "getErrors",
             "summary": "Returns\u0020the\u0020fields\u0020that\u0020have\u0020failed\u0020validation",
-            "url": "classes/App-Exceptions-formValidationException.html#method_getErrors"
+            "url": "classes/App-Exceptions-FormValidationException.html#method_getErrors"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationException\u003A\u003A\u0024errors",
+            "fqsen": "\\App\\Exceptions\\FormValidationException\u003A\u003A\u0024errors",
             "name": "errors",
             "summary": "Contains\u0020the\u0020fields\u0020that\u0020have\u0020failed\u0020validation",
-            "url": "classes/App-Exceptions-formValidationException.html#property_errors"
+            "url": "classes/App-Exceptions-FormValidationException.html#property_errors"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationFieldError",
-            "name": "formValidationFieldError",
+            "fqsen": "\\App\\Exceptions\\FormValidationFieldError",
+            "name": "FormValidationFieldError",
             "summary": "Used\u0020in\u0020App\\Exception\\formValidationException\u0020to\u0020indicate\u0020which\u0020fields\u0020have\u0020failed\u0020validation",
-            "url": "classes/App-Exceptions-formValidationFieldError.html"
+            "url": "classes/App-Exceptions-FormValidationFieldError.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\FormValidationFieldError\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/App-Exceptions-formValidationFieldError.html#method___construct"
+            "url": "classes/App-Exceptions-FormValidationFieldError.html#method___construct"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003AgetField\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\FormValidationFieldError\u003A\u003AgetField\u0028\u0029",
             "name": "getField",
             "summary": "Returns\u0020the\u0020field\u0020name",
-            "url": "classes/App-Exceptions-formValidationFieldError.html#method_getField"
+            "url": "classes/App-Exceptions-FormValidationFieldError.html#method_getField"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003AgetMessage\u0028\u0029",
+            "fqsen": "\\App\\Exceptions\\FormValidationFieldError\u003A\u003AgetMessage\u0028\u0029",
             "name": "getMessage",
             "summary": "Returns\u0020the\u0020reason",
-            "url": "classes/App-Exceptions-formValidationFieldError.html#method_getMessage"
+            "url": "classes/App-Exceptions-FormValidationFieldError.html#method_getMessage"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003A\u0024name",
+            "fqsen": "\\App\\Exceptions\\FormValidationFieldError\u003A\u003A\u0024name",
             "name": "name",
             "summary": "The\u0020field\u0020name\u0020which\u0020has\u0020failed\u0020validation",
-            "url": "classes/App-Exceptions-formValidationFieldError.html#property_name"
+            "url": "classes/App-Exceptions-FormValidationFieldError.html#property_name"
         },                {
-            "fqsen": "\\App\\Exceptions\\formValidationFieldError\u003A\u003A\u0024message",
+            "fqsen": "\\App\\Exceptions\\FormValidationFieldError\u003A\u003A\u0024message",
             "name": "message",
             "summary": "The\u0020reason\u0020for\u0020the\u0020failed\u0020validation",
-            "url": "classes/App-Exceptions-formValidationFieldError.html#property_message"
+            "url": "classes/App-Exceptions-FormValidationFieldError.html#property_message"
         },                {
             "fqsen": "\\App\\Exceptions\\Handler",
             "name": "Handler",
@@ -336,15 +341,25 @@ Search.appendIndex(
             "summary": "A\u0020list\u0020of\u0020the\u0020inputs\u0020that\u0020are\u0020never\u0020flashed\u0020for\u0020validation\u0020exceptions.",
             "url": "classes/App-Exceptions-Handler.html#property_dontFlash"
         },                {
-            "fqsen": "\\App\\Exceptions\\MediaExistsException",
-            "name": "MediaExistsException",
+            "fqsen": "\\App\\Exceptions\\InvalidDirectoryException",
+            "name": "InvalidDirectoryException",
             "summary": "",
-            "url": "classes/App-Exceptions-MediaExistsException.html"
+            "url": "classes/App-Exceptions-InvalidDirectoryException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\MediaDuplicateException",
+            "name": "MediaDuplicateException",
+            "summary": "",
+            "url": "classes/App-Exceptions-MediaDuplicateException.html"
         },                {
             "fqsen": "\\App\\Exceptions\\MediaPropertyMissingException",
             "name": "MediaPropertyMissingException",
             "summary": "",
             "url": "classes/App-Exceptions-MediaPropertyMissingException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\MediaSourceDuplicateException",
+            "name": "MediaSourceDuplicateException",
+            "summary": "",
+            "url": "classes/App-Exceptions-MediaSourceDuplicateException.html"
         },                {
             "fqsen": "\\App\\Exceptions\\ShoutzorInstallerException",
             "name": "ShoutzorInstallerException",
@@ -1051,21 +1066,6 @@ Search.appendIndex(
             "summary": "The\u0020number\u0020of\u0020seconds\u0020to\u0020wait\u0020before\u0020retrying\u0020the\u0020job.",
             "url": "classes/App-Jobs-ProcessUpload.html#property_backoff"
         },                {
-            "fqsen": "\\App\\Listeners\\UploadValidateMedia",
-            "name": "UploadValidateMedia",
-            "summary": "",
-            "url": "classes/App-Listeners-UploadValidateMedia.html"
-        },                {
-            "fqsen": "\\App\\Listeners\\UploadValidateMedia\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020the\u0020event\u0020listener.",
-            "url": "classes/App-Listeners-UploadValidateMedia.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Listeners\\UploadValidateMedia\u003A\u003Ahandle\u0028\u0029",
-            "name": "handle",
-            "summary": "Handle\u0020the\u0020event.",
-            "url": "classes/App-Listeners-UploadValidateMedia.html#method_handle"
-        },                {
             "fqsen": "\\App\\MediaSource\\MediaSource",
             "name": "MediaSource",
             "summary": "",
@@ -1645,11 +1645,6 @@ Search.appendIndex(
             "name": "Jobs",
             "summary": "",
             "url": "namespaces/app-jobs.html"
-        },                {
-            "fqsen": "\\App\\Listeners",
-            "name": "Listeners",
-            "summary": "",
-            "url": "namespaces/app-listeners.html"
         },                {
             "fqsen": "\\App\\MediaSource",
             "name": "MediaSource",
