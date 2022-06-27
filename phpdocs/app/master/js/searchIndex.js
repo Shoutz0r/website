@@ -786,30 +786,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Http-Controllers-HomeController.html"
         },                {
-            "fqsen": "\\App\\Http\\Controllers\\HomeController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020controller\u0020instance.",
-            "url": "classes/App-Http-Controllers-HomeController.html#method___construct"
-        },                {
             "fqsen": "\\App\\Http\\Controllers\\HomeController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
             "summary": "Show\u0020the\u0020application\u0020dashboard.",
             "url": "classes/App-Http-Controllers-HomeController.html#method_index"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\UpdateController",
-            "name": "UpdateController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-UpdateController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\UpdateController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020controller\u0020instance.",
-            "url": "classes/App-Http-Controllers-UpdateController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\UpdateController\u003A\u003Ainstall\u0028\u0029",
-            "name": "install",
-            "summary": "Show\u0020the\u0020application\u0020dashboard.",
-            "url": "classes/App-Http-Controllers-UpdateController.html#method_install"
         },                {
             "fqsen": "\\App\\Http\\Kernel",
             "name": "Kernel",
