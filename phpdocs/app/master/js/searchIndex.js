@@ -296,11 +296,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Exceptions-Handler.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\Handler\u003A\u003Areport\u0028\u0029",
-            "name": "report",
-            "summary": "Report\u0020or\u0020log\u0020an\u0020exception.",
-            "url": "classes/App-Exceptions-Handler.html#method_report"
-        },                {
             "fqsen": "\\App\\Exceptions\\Handler\u003A\u003Arender\u0028\u0029",
             "name": "render",
             "summary": "Render\u0020an\u0020exception\u0020into\u0020an\u0020HTTP\u0020response.",
