@@ -211,6 +211,26 @@ Search.appendIndex(
             "summary": "Performs\u0020the\u0020actual\u0020installation\u0020of\u0020Shoutzor",
             "url": "classes/App-Console-Commands-InstallShoutzor.html#method_performInstall"
         },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003AloadEnvFile\u0028\u0029",
+            "name": "loadEnvFile",
+            "summary": "",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_loadEnvFile"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003AconfigureDbConnection\u0028\u0029",
+            "name": "configureDbConnection",
+            "summary": "",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_configureDbConnection"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003AtestDbHostConnection\u0028\u0029",
+            "name": "testDbHostConnection",
+            "summary": "",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_testDbHostConnection"
+        },                {
+            "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003AtestDbLogin\u0028\u0029",
+            "name": "testDbLogin",
+            "summary": "",
+            "url": "classes/App-Console-Commands-InstallShoutzor.html#method_testDbLogin"
+        },                {
             "fqsen": "\\App\\Console\\Commands\\InstallShoutzor\u003A\u003A\u0024signature",
             "name": "signature",
             "summary": "The\u0020name\u0020and\u0020signature\u0020of\u0020the\u0020console\u0020command.",
@@ -325,6 +345,11 @@ Search.appendIndex(
             "name": "MediaPropertyMissingException",
             "summary": "",
             "url": "classes/App-Exceptions-MediaPropertyMissingException.html"
+        },                {
+            "fqsen": "\\App\\Exceptions\\ShoutzorInstallerException",
+            "name": "ShoutzorInstallerException",
+            "summary": "",
+            "url": "classes/App-Exceptions-ShoutzorInstallerException.html"
         },                {
             "fqsen": "\\App\\Exceptions\\UploadFileMissingException",
             "name": "UploadFileMissingException",
