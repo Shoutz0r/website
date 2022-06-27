@@ -321,30 +321,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Exceptions-MediaExistsException.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\MediaExistsException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Exceptions-MediaExistsException.html#method___construct"
-        },                {
             "fqsen": "\\App\\Exceptions\\MediaPropertyMissingException",
             "name": "MediaPropertyMissingException",
             "summary": "",
             "url": "classes/App-Exceptions-MediaPropertyMissingException.html"
         },                {
-            "fqsen": "\\App\\Exceptions\\MediaPropertyMissingException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Exceptions-MediaPropertyMissingException.html#method___construct"
-        },                {
             "fqsen": "\\App\\Exceptions\\UploadFileMissingException",
             "name": "UploadFileMissingException",
             "summary": "",
             "url": "classes/App-Exceptions-UploadFileMissingException.html"
-        },                {
-            "fqsen": "\\App\\Exceptions\\UploadFileMissingException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Exceptions-UploadFileMissingException.html#method___construct"
         },                {
             "fqsen": "\\App\\GraphQL\\Mutations\\LastPlayed",
             "name": "LastPlayed",
