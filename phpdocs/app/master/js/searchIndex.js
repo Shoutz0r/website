@@ -1171,6 +1171,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Album.html#method_media"
         },                {
+            "fqsen": "\\App\\Models\\Album\u003A\u003AgetImageAttribute\u0028\u0029",
+            "name": "getImageAttribute",
+            "summary": "",
+            "url": "classes/App-Models-Album.html#method_getImageAttribute"
+        },                {
             "fqsen": "\\App\\Models\\Album\u003A\u003A\u0024timestamps",
             "name": "timestamps",
             "summary": "Indicates\u0020if\u0020the\u0020model\u0020should\u0020be\u0020timestamped.",
@@ -1190,6 +1195,11 @@ Search.appendIndex(
             "name": "media",
             "summary": "",
             "url": "classes/App-Models-Artist.html#method_media"
+        },                {
+            "fqsen": "\\App\\Models\\Artist\u003A\u003AgetImageAttribute\u0028\u0029",
+            "name": "getImageAttribute",
+            "summary": "",
+            "url": "classes/App-Models-Artist.html#method_getImageAttribute"
         },                {
             "fqsen": "\\App\\Models\\Media",
             "name": "Media",
