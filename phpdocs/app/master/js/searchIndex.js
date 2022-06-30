@@ -371,6 +371,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Exceptions-UploadFileMissingException.html"
         },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest",
+            "name": "AddRequest",
+            "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#method___construct"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#method___invoke"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003AgetAuthFactory\u0028\u0029",
+            "name": "getAuthFactory",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#method_getAuthFactory"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003AuserCanRequest\u0028\u0029",
+            "name": "userCanRequest",
+            "summary": "Determines\u0020if\u0020the\u0020user\u0020is\u0020able\u0020to\u0020make\u0020a\u0020request\u0020at\u0020this\u0020moment\nie\u003A\u0020requested\u0020something\u0020too\u0020recently",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#method_userCanRequest"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003AisMediaRequestable\u0028\u0029",
+            "name": "isMediaRequestable",
+            "summary": "Determines\u0020if\u0020the\u0020provided\u0020media\u0020object\u0020is\u0020requestable\nie\u003A\u0020not\u0020requested\u0020too\u0020recently",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#method_isMediaRequestable"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003AisArtistRequestable\u0028\u0029",
+            "name": "isArtistRequestable",
+            "summary": "Determines\u0020if\u0020the\u0020artist\u0020of\u0020the\u0020provided\u0020media\u0020object\u0020is\u0020requestable\nie\u003A\u0020no\u0020tracks\u0020of\u0020the\u0020artist\u0020have\u0020been\u0020played\u0020too\u0020recently",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#method_isArtistRequestable"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Mutations\\AddRequest\u003A\u003A\u0024authFactory",
+            "name": "authFactory",
+            "summary": "",
+            "url": "classes/App-GraphQL-Mutations-AddRequest.html#property_authFactory"
+        },                {
             "fqsen": "\\App\\GraphQL\\Mutations\\LastPlayed",
             "name": "LastPlayed",
             "summary": "Override\u0020the\u0020original\u0020class\u0020because\u0020that\u0020always\u0020expects\u0020an\u0020email\u0020\u0026\u0020password\u0020combination\nShoutz0r\u0020however\u0020uses\u0020a\u0020username\u0020\u0026\u0020password\u0020combination",
