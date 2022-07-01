@@ -1321,6 +1321,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Models-Request.html#constant_UPDATED_AT"
         },                {
+            "fqsen": "\\App\\Models\\Request\u003A\u003A\u0024fillable",
+            "name": "fillable",
+            "summary": "The\u0020attributes\u0020that\u0020are\u0020mass\u0020assignable.",
+            "url": "classes/App-Models-Request.html#property_fillable"
+        },                {
             "fqsen": "\\App\\Models\\Role",
             "name": "Role",
             "summary": "",
