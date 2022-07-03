@@ -456,6 +456,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-GraphQL-Queries-Search.html#method___invoke"
         },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions\\RequestAdded",
+            "name": "RequestAdded",
+            "summary": "",
+            "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions\\RequestAdded\u003A\u003Aauthorize\u0028\u0029",
+            "name": "authorize",
+            "summary": "Check\u0020if\u0020subscriber\u0020is\u0020allowed\u0020to\u0020listen\u0020to\u0020the\u0020subscription.",
+            "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html#method_authorize"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions\\RequestAdded\u003A\u003Afilter\u0028\u0029",
+            "name": "filter",
+            "summary": "Filter\u0020which\u0020subscribers\u0020should\u0020receive\u0020the\u0020subscription.",
+            "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html#method_filter"
+        },                {
             "fqsen": "\\App\\HealthCheck\\BaseHealthCheck",
             "name": "BaseHealthCheck",
             "summary": "",
@@ -1675,6 +1690,11 @@ Search.appendIndex(
             "name": "Queries",
             "summary": "",
             "url": "namespaces/app-graphql-queries.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions",
+            "name": "Subscriptions",
+            "summary": "",
+            "url": "namespaces/app-graphql-subscriptions.html"
         },                {
             "fqsen": "\\App\\HealthCheck",
             "name": "HealthCheck",
