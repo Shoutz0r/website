@@ -471,6 +471,21 @@ Search.appendIndex(
             "summary": "Filter\u0020which\u0020subscribers\u0020should\u0020receive\u0020the\u0020subscription.",
             "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html#method_filter"
         },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions\\RequestAdded\u003A\u003AencodeTopic\u0028\u0029",
+            "name": "encodeTopic",
+            "summary": "Encode\u0020topic\u0020name.",
+            "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html#method_encodeTopic"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions\\RequestAdded\u003A\u003AdecodeTopic\u0028\u0029",
+            "name": "decodeTopic",
+            "summary": "Decode\u0020topic\u0020name.",
+            "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html#method_decodeTopic"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Subscriptions\\RequestAdded\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "Resolve\u0020the\u0020subscription.",
+            "url": "classes/App-GraphQL-Subscriptions-RequestAdded.html#method_resolve"
+        },                {
             "fqsen": "\\App\\HealthCheck\\BaseHealthCheck",
             "name": "BaseHealthCheck",
             "summary": "",
