@@ -356,6 +356,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Exceptions-MediaPropertyMissingException.html"
         },                {
+            "fqsen": "\\App\\Exceptions\\MediaQueueException",
+            "name": "MediaQueueException",
+            "summary": "",
+            "url": "classes/App-Exceptions-MediaQueueException.html"
+        },                {
             "fqsen": "\\App\\Exceptions\\MediaSourceDuplicateException",
             "name": "MediaSourceDuplicateException",
             "summary": "",
