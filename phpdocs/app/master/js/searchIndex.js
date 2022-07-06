@@ -861,20 +861,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Http-Controllers-Api-UploadApiController.html#method_store"
         },                {
+            "fqsen": "\\App\\Http\\Controllers\\AppController",
+            "name": "AppController",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-AppController.html"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\AppController\u003A\u003Aindex\u0028\u0029",
+            "name": "index",
+            "summary": "Show\u0020the\u0020application\u0020dashboard.",
+            "url": "classes/App-Http-Controllers-AppController.html#method_index"
+        },                {
             "fqsen": "\\App\\Http\\Controllers\\Controller",
             "name": "Controller",
             "summary": "",
             "url": "classes/App-Http-Controllers-Controller.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\HomeController",
-            "name": "HomeController",
-            "summary": "",
-            "url": "classes/App-Http-Controllers-HomeController.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers\\HomeController\u003A\u003Aindex\u0028\u0029",
-            "name": "index",
-            "summary": "Show\u0020the\u0020application\u0020dashboard.",
-            "url": "classes/App-Http-Controllers-HomeController.html#method_index"
         },                {
             "fqsen": "\\App\\Http\\Kernel",
             "name": "Kernel",
