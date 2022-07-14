@@ -461,6 +461,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-GraphQL-Queries-Search.html#method___invoke"
         },                {
+            "fqsen": "\\App\\GraphQL\\Queries\\TopAlbums",
+            "name": "TopAlbums",
+            "summary": "",
+            "url": "classes/App-GraphQL-Queries-TopAlbums.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Queries\\TopAlbums\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/App-GraphQL-Queries-TopAlbums.html#method___invoke"
+        },                {
             "fqsen": "\\App\\GraphQL\\Queries\\TopMedia",
             "name": "TopMedia",
             "summary": "",
