@@ -471,6 +471,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-GraphQL-Queries-TopAlbums.html#method___invoke"
         },                {
+            "fqsen": "\\App\\GraphQL\\Queries\\TopArtists",
+            "name": "TopArtists",
+            "summary": "",
+            "url": "classes/App-GraphQL-Queries-TopArtists.html"
+        },                {
+            "fqsen": "\\App\\GraphQL\\Queries\\TopArtists\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/App-GraphQL-Queries-TopArtists.html#method___invoke"
+        },                {
             "fqsen": "\\App\\GraphQL\\Queries\\TopMedia",
             "name": "TopMedia",
             "summary": "",
