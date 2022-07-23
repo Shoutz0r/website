@@ -3,5 +3,5 @@ Github website for Shoutz0r
 
 Shoutzor consists of the following components:
 
-- [xorinzor/shoutz0r-app](https://github.com/xorinzor/shoutz0r-app) (phpdoc documentation [can be found over here](https://shoutzor.com/phpdocs/app/master/))
-- [xorinzor/shoutz0r-player](https://github.com/xorinzor/shoutz0r-player)
+- [Shoutz0r/app](https://github.com/Shoutz0r/app) (phpdoc documentation [can be found over here](https://shoutzor.com/phpdocs/app/master/))
+- [Shoutz0r/player](https://github.com/Shoutz0r/player)
